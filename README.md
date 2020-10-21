@@ -19,4 +19,23 @@ A mini project containing all that I learned about different types of testing.
 <h3>Regression Testing</h3>
 <p>Regression testing is done to check if a new feature hasn't caused new bugs in the code.</p>
 
-
+<h2>Commands used</h2>
+<p>
+open
+click
+wait for element present
+wait for element visible
+wait for element editable
+wait for text
+assert text
+assert title
+assert editable
+assert not editable
+assert element present
+verify text
+verify title
+verify editable
+verify not editable
+verify element present
+mouse over
+</p>
