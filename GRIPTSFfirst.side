@@ -1,0 +1,457 @@
+{
+  "id": "ab8651b4-cee9-49a8-bbfe-ed5298b2705d",
+  "version": "2.0",
+  "name": "GRIPTSFfirst",
+  "url": "https://www.thesparksfoundationsingapore.org",
+  "tests": [{
+    "id": "cbc17ecf-c086-46a2-b587-38560a27607f",
+    "name": "checktitle",
+    "commands": [{
+      "id": "319cfa18-3a61-4598-a4ef-f4af611791d5",
+      "comment": "",
+      "command": "open",
+      "target": "https://www.thesparksfoundationsingapore.org",
+      "targets": [],
+      "value": ""
+    }, {
+      "id": "0ac2c87b-aab2-4755-a162-d36b3a4f9c60",
+      "comment": "",
+      "command": "setWindowSize",
+      "target": "1382x744",
+      "targets": [],
+      "value": ""
+    }, {
+      "id": "7c5a93d7-758c-4e8b-a4c1-a0c3ac991350",
+      "comment": "",
+      "command": "verifyTitle",
+      "target": "The Sparks Foundation | Home",
+      "targets": [],
+      "value": ""
+    }, {
+      "id": "f59e48f0-6196-4b9b-847d-4d3082445de3",
+      "comment": "",
+      "command": "assertTitle",
+      "target": "The Sparks Foundation | Home",
+      "targets": [],
+      "value": ""
+    }]
+  }, {
+    "id": "6f73111e-da1f-41d0-979d-9fed1181e717",
+    "name": "checkdesc",
+    "commands": [{
+      "id": "e52cb28d-f666-4825-9016-1c7e298c7592",
+      "comment": "",
+      "command": "open",
+      "target": "/",
+      "targets": [],
+      "value": ""
+    }, {
+      "id": "6229c178-ec5d-4b8e-ac87-af855785fec9",
+      "comment": "",
+      "command": "setWindowSize",
+      "target": "1382x744",
+      "targets": [],
+      "value": ""
+    }, {
+      "id": "f9f8c791-cfd6-486d-a232-77c48a67143c",
+      "comment": "",
+      "command": "assertText",
+      "target": "css=.para-w3-agile:nth-child(3)",
+      "targets": [
+        ["css=.para-w3-agile:nth-child(3)", "css:finder"],
+        ["xpath=//div[2]/p", "xpath:position"],
+        ["xpath=//p[contains(.,'The sparks foundation is working to bring parity in education, making sure children have equal opportunity at success, irrespective of the financial background.')]", "xpath:innerText"]
+      ],
+      "value": "The sparks foundation is working to bring parity in education, making sure children have equal opportunity at success, irrespective of the financial background."
+    }, {
+      "id": "9448cb50-2e82-4a2d-9c5f-b2a4f72153b6",
+      "comment": "",
+      "command": "verifyText",
+      "target": "css=.para-w3-agile:nth-child(3)",
+      "targets": [
+        ["css=.para-w3-agile:nth-child(3)", "css:finder"],
+        ["xpath=//div[2]/p", "xpath:position"],
+        ["xpath=//p[contains(.,'The sparks foundation is working to bring parity in education, making sure children have equal opportunity at success, irrespective of the financial background.')]", "xpath:innerText"]
+      ],
+      "value": "The sparks foundation is working to bring parity in education, making sure children have equal opportunity at success, irrespective of the financial background."
+    }]
+  }, {
+    "id": "b52f84de-02c2-490d-ab40-7b7641a7133e",
+    "name": "checkcom",
+    "commands": [{
+      "id": "130137a5-8e1d-4343-9f81-f7d3645dba4a",
+      "comment": "",
+      "command": "open",
+      "target": "/",
+      "targets": [],
+      "value": ""
+    }, {
+      "id": "62229472-6803-4e5b-875d-018578d09906",
+      "comment": "",
+      "command": "setWindowSize",
+      "target": "1382x744",
+      "targets": [],
+      "value": ""
+    }, {
+      "id": "fa77ccbe-3af3-470e-a039-b98f14103112",
+      "comment": "",
+      "command": "verifyText",
+      "target": "css=.service-grid1 > .col-md-4:nth-child(1) > h5",
+      "targets": [
+        ["css=.service-grid1 > .col-md-4:nth-child(1) > h5", "css:finder"],
+        ["xpath=//div[3]/div/div/div/h5", "xpath:position"],
+        ["xpath=//h5[contains(.,'Be Multilingual')]", "xpath:innerText"]
+      ],
+      "value": "Be Multilingual"
+    }, {
+      "id": "6e55f903-448b-4015-9239-34b906a2d0ec",
+      "comment": "",
+      "command": "assertElementPresent",
+      "target": "css=.service-grid1 > .col-md-4:nth-child(1) > p",
+      "targets": [
+        ["css=.service-grid1 > .col-md-4:nth-child(1) > p", "css:finder"],
+        ["xpath=//div[3]/div/div/div/p", "xpath:position"],
+        ["xpath=//p[contains(.,'Meet with people around the world')]", "xpath:innerText"]
+      ],
+      "value": ""
+    }, {
+      "id": "bf14656b-cb6b-40c9-87c1-61deef6216e6",
+      "comment": "",
+      "command": "verifyText",
+      "target": "css=.service-grid1 > .col-md-4:nth-child(2) > p",
+      "targets": [
+        ["css=.service-grid1 > .col-md-4:nth-child(2) > p", "css:finder"],
+        ["xpath=//div[3]/div/div/div[2]/p", "xpath:position"],
+        ["xpath=//p[contains(.,'Teach and Learn at same time')]", "xpath:innerText"]
+      ],
+      "value": "Teach and Learn at same time"
+    }, {
+      "id": "ebf72d26-1f6c-4b4a-817a-e35217070474",
+      "comment": "",
+      "command": "verifyElementPresent",
+      "target": "css=.service-grid1 > .col-md-4:nth-child(2) > p",
+      "targets": [
+        ["css=.service-grid1 > .col-md-4:nth-child(2) > p", "css:finder"],
+        ["xpath=//div[3]/div/div/div[2]/p", "xpath:position"],
+        ["xpath=//p[contains(.,'Teach and Learn at same time')]", "xpath:innerText"]
+      ],
+      "value": ""
+    }]
+  }, {
+    "id": "0d6d5fb3-b986-471e-85f3-d992967a01a5",
+    "name": "checkcom2",
+    "commands": [{
+      "id": "c15caad2-4b2d-4b70-9681-ab7b681be641",
+      "comment": "",
+      "command": "open",
+      "target": "/",
+      "targets": [],
+      "value": ""
+    }, {
+      "id": "922df86d-a893-40b0-8be8-241f74d4fb70",
+      "comment": "",
+      "command": "setWindowSize",
+      "target": "1382x744",
+      "targets": [],
+      "value": ""
+    }, {
+      "id": "1d52465f-9c89-4de7-bdcf-f095d8b87fb4",
+      "comment": "",
+      "command": "assertText",
+      "target": "css=.service-grid2 > .col-md-4:nth-child(2) > h5",
+      "targets": [
+        ["css=.service-grid2 > .col-md-4:nth-child(2) > h5", "css:finder"],
+        ["xpath=//div[2]/div[2]/h5", "xpath:position"],
+        ["xpath=//h5[contains(.,'Connect')]", "xpath:innerText"]
+      ],
+      "value": "Connect"
+    }, {
+      "id": "ba3230ae-9991-490b-9124-fc9a70a1be76",
+      "comment": "",
+      "command": "verifyTitle",
+      "target": "The Sparks Foundation | Home",
+      "targets": [],
+      "value": ""
+    }, {
+      "id": "708662f7-ea75-42ba-8f2a-035f06e63e76",
+      "comment": "",
+      "command": "verifyText",
+      "target": "css=.service-grid2 > .col-md-4:nth-child(2) > p",
+      "targets": [
+        ["css=.service-grid2 > .col-md-4:nth-child(2) > p", "css:finder"],
+        ["xpath=//div[2]/div[2]/p", "xpath:position"],
+        ["xpath=//p[contains(.,'Connect with mentors whenever needed')]", "xpath:innerText"]
+      ],
+      "value": "Connect with mentors whenever needed"
+    }]
+  }, {
+    "id": "919d07d8-1836-4137-aa2d-f1cab3abeae2",
+    "name": "checkform",
+    "commands": [{
+      "id": "b5441348-0236-4356-bff8-e9ac5a24abfa",
+      "comment": "",
+      "command": "open",
+      "target": "/",
+      "targets": [],
+      "value": ""
+    }, {
+      "id": "f981c476-5bc6-41a4-a102-4af8b7d52620",
+      "comment": "",
+      "command": "setWindowSize",
+      "target": "1382x744",
+      "targets": [],
+      "value": ""
+    }, {
+      "id": "93aeec80-52db-4358-83fa-099915d70c62",
+      "comment": "",
+      "command": "verifyEditable",
+      "target": "id=Name",
+      "targets": [
+        ["id=Name", "id"],
+        ["name=Name", "name"],
+        ["css=#Name", "css:finder"],
+        ["xpath=//input[@id='Name']", "xpath:attributes"],
+        ["xpath=//input", "xpath:position"]
+      ],
+      "value": ""
+    }, {
+      "id": "1c2ca0ca-1db6-4d3d-a967-c3b0d5b83b79",
+      "comment": "",
+      "command": "click",
+      "target": "id=Email",
+      "targets": [
+        ["id=Email", "id"],
+        ["name=Email", "name"],
+        ["css=#Email", "css:finder"],
+        ["xpath=//input[@id='Email']", "xpath:attributes"],
+        ["xpath=//input[2]", "xpath:position"]
+      ],
+      "value": ""
+    }, {
+      "id": "9ea2a3dc-9001-4a05-b5d0-5e789b6d07d9",
+      "comment": "",
+      "command": "verifyElementPresent",
+      "target": "css=.form-bg-w3ls > h3",
+      "targets": [
+        ["css=.form-bg-w3ls > h3", "css:finder"],
+        ["xpath=//div[5]/div/div[2]/div/h3", "xpath:position"]
+      ],
+      "value": ""
+    }]
+  }, {
+    "id": "6ddcd2af-d7c2-4783-8581-04ca3ae86a2a",
+    "name": "corp",
+    "commands": [{
+      "id": "f6fa0cbb-e939-46da-95b9-d7a28aa894e8",
+      "comment": "",
+      "command": "open",
+      "target": "/",
+      "targets": [],
+      "value": ""
+    }, {
+      "id": "e550cff2-1462-4207-929e-cf544c1784b4",
+      "comment": "",
+      "command": "setWindowSize",
+      "target": "1382x744",
+      "targets": [],
+      "value": ""
+    }, {
+      "id": "8080455d-7376-441a-82ab-a507f6525062",
+      "comment": "",
+      "command": "verifyElementPresent",
+      "target": "css=.col-md-3 > .tittle-agileits-w3layouts",
+      "targets": [
+        ["css=.col-md-3 > .tittle-agileits-w3layouts", "css:finder"],
+        ["xpath=//div[4]/div/div/h3", "xpath:position"],
+        ["xpath=//h3[contains(.,'Corporate Partners')]", "xpath:innerText"]
+      ],
+      "value": ""
+    }, {
+      "id": "63b4b645-47b4-4d72-81ca-49ce0e907faf",
+      "comment": "",
+      "command": "verifyText",
+      "target": "css=.col-md-3 > .tittle-agileits-w3layouts",
+      "targets": [
+        ["css=.col-md-3 > .tittle-agileits-w3layouts", "css:finder"],
+        ["xpath=//div[4]/div/div/h3", "xpath:position"],
+        ["xpath=//h3[contains(.,'Corporate Partners')]", "xpath:innerText"]
+      ],
+      "value": "Corporate Partners"
+    }]
+  }, {
+    "id": "0cf26669-5571-46d0-b2d6-b7e5c6d3bae3",
+    "name": "checkmenu",
+    "commands": [{
+      "id": "78787732-8fee-4603-bd4d-b3153123c114",
+      "comment": "",
+      "command": "open",
+      "target": "/",
+      "targets": [],
+      "value": ""
+    }, {
+      "id": "f3f9f8a8-8dea-4464-8ab3-5953696fe72a",
+      "comment": "",
+      "command": "setWindowSize",
+      "target": "1382x744",
+      "targets": [],
+      "value": ""
+    }, {
+      "id": "4a76654d-b440-4106-b7f3-f262a56e9d14",
+      "comment": "",
+      "command": "verifyText",
+      "target": "linkText=About Us",
+      "targets": [
+        ["linkText=About Us", "linkText"],
+        ["css=.dropdown:nth-child(1) > .dropdown-toggle", "css:finder"],
+        ["xpath=//a[contains(text(),'About Us')]", "xpath:link"],
+        ["xpath=//nav[@id='link-effect-3']/ul/li/a", "xpath:idRelative"],
+        ["xpath=//a[contains(@href, '#')]", "xpath:href"],
+        ["xpath=//li/a", "xpath:position"],
+        ["xpath=//a[contains(.,'About Us')]", "xpath:innerText"]
+      ],
+      "value": "About Us"
+    }, {
+      "id": "1dfb7028-f2d3-41a6-a3ac-d133fcd2ba32",
+      "comment": "",
+      "command": "verifyElementPresent",
+      "target": "linkText=About Us",
+      "targets": [
+        ["linkText=About Us", "linkText"],
+        ["css=.dropdown:nth-child(1) > .dropdown-toggle", "css:finder"],
+        ["xpath=//a[contains(text(),'About Us')]", "xpath:link"],
+        ["xpath=//nav[@id='link-effect-3']/ul/li/a", "xpath:idRelative"],
+        ["xpath=//a[contains(@href, '#')]", "xpath:href"],
+        ["xpath=//li/a", "xpath:position"],
+        ["xpath=//a[contains(.,'About Us')]", "xpath:innerText"]
+      ],
+      "value": ""
+    }]
+  }, {
+    "id": "61be817e-79d8-43e5-9d2f-b128982755b2",
+    "name": "checkmenu2",
+    "commands": [{
+      "id": "20d5b7e7-88d0-4bab-adc4-c9bcb792c3e0",
+      "comment": "",
+      "command": "open",
+      "target": "/",
+      "targets": [],
+      "value": ""
+    }, {
+      "id": "21298587-7eb2-4fac-a148-c3576b6c1b29",
+      "comment": "",
+      "command": "setWindowSize",
+      "target": "1382x744",
+      "targets": [],
+      "value": ""
+    }, {
+      "id": "3c3ab72d-b324-43cd-8323-a83b61f3bee7",
+      "comment": "",
+      "command": "verifyElementPresent",
+      "target": "linkText=Programs",
+      "targets": [
+        ["linkText=Programs", "linkText"],
+        ["css=.dropdown:nth-child(3) > .dropdown-toggle", "css:finder"],
+        ["xpath=//a[contains(text(),'Programs')]", "xpath:link"],
+        ["xpath=//nav[@id='link-effect-3']/ul/li[3]/a", "xpath:idRelative"],
+        ["xpath=(//a[contains(@href, '#')])[3]", "xpath:href"],
+        ["xpath=//nav/ul/li[3]/a", "xpath:position"],
+        ["xpath=//a[contains(.,'Programs')]", "xpath:innerText"]
+      ],
+      "value": ""
+    }, {
+      "id": "4b778630-5229-4e18-b90e-6300a94bffa3",
+      "comment": "",
+      "command": "verifyText",
+      "target": "linkText=Programs",
+      "targets": [
+        ["linkText=Programs", "linkText"],
+        ["css=.dropdown:nth-child(3) > .dropdown-toggle", "css:finder"],
+        ["xpath=//a[contains(text(),'Programs')]", "xpath:link"],
+        ["xpath=//nav[@id='link-effect-3']/ul/li[3]/a", "xpath:idRelative"],
+        ["xpath=(//a[contains(@href, '#')])[3]", "xpath:href"],
+        ["xpath=//nav/ul/li[3]/a", "xpath:position"],
+        ["xpath=//a[contains(.,'Programs')]", "xpath:innerText"]
+      ],
+      "value": "Programs"
+    }]
+  }, {
+    "id": "ae33a0d4-950a-422f-b448-6d59434603bb",
+    "name": "checkele",
+    "commands": [{
+      "id": "80e7e6d1-0d95-44da-bd77-43dc51686d8a",
+      "comment": "",
+      "command": "open",
+      "target": "/",
+      "targets": [],
+      "value": ""
+    }, {
+      "id": "15d9701f-545a-4194-a3f6-50968319b895",
+      "comment": "",
+      "command": "setWindowSize",
+      "target": "1382x744",
+      "targets": [],
+      "value": ""
+    }, {
+      "id": "254ed837-5073-49b6-b7b2-85ab75c50d3e",
+      "comment": "",
+      "command": "verifyElementPresent",
+      "target": "css=.top-header-agile-left",
+      "targets": [
+        ["css=.top-header-agile-left", "css:finder"],
+        ["xpath=//div[@id='home']/div/div/div", "xpath:idRelative"],
+        ["xpath=//div/div/div/div", "xpath:position"]
+      ],
+      "value": ""
+    }]
+  }, {
+    "id": "3c30e92c-ca8f-423e-bb54-62f00852ae9b",
+    "name": "checkele2",
+    "commands": [{
+      "id": "d9af73b7-b157-4ae0-86a8-6b72af4641a9",
+      "comment": "",
+      "command": "open",
+      "target": "/",
+      "targets": [],
+      "value": ""
+    }, {
+      "id": "7f026005-bd9e-4d32-9f3b-5fb5dc26b74e",
+      "comment": "",
+      "command": "setWindowSize",
+      "target": "1382x744",
+      "targets": [],
+      "value": ""
+    }, {
+      "id": "10cbc4eb-0dad-4abc-958e-7ee7b16ed1f3",
+      "comment": "",
+      "command": "verifyElementPresent",
+      "target": "css=.services-info > .para-w3-agile",
+      "targets": [
+        ["css=.services-info > .para-w3-agile", "css:finder"],
+        ["xpath=//div[3]/div[2]/div/p", "xpath:position"],
+        ["xpath=//p[contains(.,'You can join The Sparks Foundation as a learner, mentor, expert, intern and make an impact on education. Learn and Share.')]", "xpath:innerText"]
+      ],
+      "value": ""
+    }, {
+      "id": "51e74ba7-4769-4218-80df-78d0387b9d03",
+      "comment": "",
+      "command": "verifyText",
+      "target": "css=.services-info > .para-w3-agile",
+      "targets": [
+        ["css=.services-info > .para-w3-agile", "css:finder"],
+        ["xpath=//div[3]/div[2]/div/p", "xpath:position"],
+        ["xpath=//p[contains(.,'You can join The Sparks Foundation as a learner, mentor, expert, intern and make an impact on education. Learn and Share.')]", "xpath:innerText"]
+      ],
+      "value": "You can join The Sparks Foundation as a learner, mentor, expert, intern and make an impact on education. Learn and Share."
+    }]
+  }],
+  "suites": [{
+    "id": "b62bfa9a-6cc0-40cf-a598-bf761601d912",
+    "name": "Default Suite",
+    "persistSession": false,
+    "parallel": false,
+    "timeout": 300,
+    "tests": ["cbc17ecf-c086-46a2-b587-38560a27607f"]
+  }],
+  "urls": ["https://www.thesparksfoundationsingapore.org/"],
+  "plugins": []
+}

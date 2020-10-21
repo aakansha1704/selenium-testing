@@ -1,0 +1,1022 @@
+{
+  "id": "cf7f849f-07d1-46b3-9927-dae0a11e5068",
+  "version": "2.0",
+  "name": "GRIPTSFn3",
+  "url": "https://www.thesparksfoundationsingapore.org",
+  "tests": [{
+    "id": "ab76f605-b177-437f-a0af-4a2393a58d78",
+    "name": "joinusele",
+    "commands": [{
+      "id": "ad0bb01d-7873-482f-bf16-af07e238a132",
+      "comment": "",
+      "command": "open",
+      "target": "/",
+      "targets": [],
+      "value": ""
+    }, {
+      "id": "29eb29e8-61de-4372-b748-a4a5c388f9ba",
+      "comment": "",
+      "command": "setWindowSize",
+      "target": "1382x744",
+      "targets": [],
+      "value": ""
+    }, {
+      "id": "f2fc6ab7-9db4-49da-82e1-c7e00bf2e7cf",
+      "comment": "",
+      "command": "click",
+      "target": "linkText=Programs",
+      "targets": [
+        ["linkText=Programs", "linkText"],
+        ["css=.dropdown:nth-child(3) > .dropdown-toggle", "css:finder"],
+        ["xpath=//a[contains(text(),'Programs')]", "xpath:link"],
+        ["xpath=//nav[@id='link-effect-3']/ul/li[3]/a", "xpath:idRelative"],
+        ["xpath=(//a[contains(@href, '#')])[3]", "xpath:href"],
+        ["xpath=//nav/ul/li[3]/a", "xpath:position"],
+        ["xpath=//a[contains(.,'Programs')]", "xpath:innerText"]
+      ],
+      "value": ""
+    }, {
+      "id": "485da094-4489-4688-ab7a-5596b554a86e",
+      "comment": "",
+      "command": "click",
+      "target": "linkText=Join Us",
+      "targets": [
+        ["linkText=Join Us", "linkText"],
+        ["css=.dropdown:nth-child(5) > .dropdown-toggle", "css:finder"],
+        ["xpath=//a[contains(text(),'Join Us')]", "xpath:link"],
+        ["xpath=//nav[@id='link-effect-3']/ul/li[5]/a", "xpath:idRelative"],
+        ["xpath=(//a[contains(@href, '#')])[5]", "xpath:href"],
+        ["xpath=//nav/ul/li[5]/a", "xpath:position"],
+        ["xpath=//a[contains(.,'Join Us')]", "xpath:innerText"]
+      ],
+      "value": ""
+    }, {
+      "id": "90ce5e97-86c6-4648-96b2-15b530899d8d",
+      "comment": "",
+      "command": "click",
+      "target": "linkText=Why Join Us",
+      "targets": [
+        ["linkText=Why Join Us", "linkText"],
+        ["css=.open li:nth-child(1) > a", "css:finder"],
+        ["xpath=//a[contains(text(),'Why Join Us')]", "xpath:link"],
+        ["xpath=//nav[@id='link-effect-3']/ul/li[5]/ul/li/a", "xpath:idRelative"],
+        ["xpath=//a[contains(@href, '/join-us/why-join-us/')]", "xpath:href"],
+        ["xpath=//li[5]/ul/li/a", "xpath:position"],
+        ["xpath=//a[contains(.,'Why Join Us')]", "xpath:innerText"]
+      ],
+      "value": ""
+    }, {
+      "id": "f9f38d0b-62ef-4f01-871d-819948ed59de",
+      "comment": "",
+      "command": "verifyText",
+      "target": "css=.para-w3-agile:nth-child(1)",
+      "targets": [
+        ["css=.para-w3-agile:nth-child(1)", "css:finder"],
+        ["xpath=//p", "xpath:position"],
+        ["xpath=//p[contains(.,'Pleasure in the job puts perfection in the work.')]", "xpath:innerText"]
+      ],
+      "value": "Pleasure in the job puts perfection in the work."
+    }, {
+      "id": "f1696186-aa38-479e-96f1-c6750ed18b52",
+      "comment": "",
+      "command": "verifyText",
+      "target": "css=.tittle-agileits-w3layouts > span",
+      "targets": [
+        ["css=.tittle-agileits-w3layouts > span", "css:finder"],
+        ["xpath=//h3/span", "xpath:position"],
+        ["xpath=//span[contains(.,'Be Your Own Boss')]", "xpath:innerText"]
+      ],
+      "value": "Be Your Own Boss"
+    }, {
+      "id": "3263b56e-cf0c-47a3-913b-410abfad8e03",
+      "comment": "",
+      "command": "waitForElementEditable",
+      "target": "name=Name",
+      "targets": [
+        ["name=Name", "name"],
+        ["css=input:nth-child(1)", "css:finder"],
+        ["xpath=//input[@name='Name']", "xpath:attributes"],
+        ["xpath=//input", "xpath:position"]
+      ],
+      "value": "2"
+    }, {
+      "id": "974ea2b8-afa3-4d4c-be11-e3b07c109a13",
+      "comment": "",
+      "command": "verifyEditable",
+      "target": "name=Email",
+      "targets": [
+        ["name=Email", "name"],
+        ["css=input:nth-child(2)", "css:finder"],
+        ["xpath=//input[@name='Email']", "xpath:attributes"],
+        ["xpath=//input[2]", "xpath:position"]
+      ],
+      "value": ""
+    }]
+  }, {
+    "id": "de7462a3-dc41-420f-a61d-2f24d9046387",
+    "name": "expmentorele",
+    "commands": [{
+      "id": "cac601fe-da82-48d5-9d85-9980fd981ebd",
+      "comment": "",
+      "command": "open",
+      "target": "/",
+      "targets": [],
+      "value": ""
+    }, {
+      "id": "1c37fe7d-7f0a-4ad1-a641-c3657672b09d",
+      "comment": "",
+      "command": "setWindowSize",
+      "target": "1382x744",
+      "targets": [],
+      "value": ""
+    }, {
+      "id": "41d4a07e-8ddf-4f83-91e7-2b099cf57fd0",
+      "comment": "",
+      "command": "click",
+      "target": "linkText=Join Us",
+      "targets": [
+        ["linkText=Join Us", "linkText"],
+        ["css=.dropdown:nth-child(5) > .dropdown-toggle", "css:finder"],
+        ["xpath=//a[contains(text(),'Join Us')]", "xpath:link"],
+        ["xpath=//nav[@id='link-effect-3']/ul/li[5]/a", "xpath:idRelative"],
+        ["xpath=(//a[contains(@href, '#')])[5]", "xpath:href"],
+        ["xpath=//nav/ul/li[5]/a", "xpath:position"],
+        ["xpath=//a[contains(.,'Join Us')]", "xpath:innerText"]
+      ],
+      "value": ""
+    }, {
+      "id": "d4c4444b-a684-4c6c-8d8e-07b8cab7fea2",
+      "comment": "",
+      "command": "click",
+      "target": "linkText=Expert Mentor",
+      "targets": [
+        ["linkText=Expert Mentor", "linkText"],
+        ["css=.open li:nth-child(2) > a", "css:finder"],
+        ["xpath=(//a[contains(text(),'Expert Mentor')])[2]", "xpath:link"],
+        ["xpath=//nav[@id='link-effect-3']/ul/li[5]/ul/li[2]/a", "xpath:idRelative"],
+        ["xpath=//a[contains(@href, '/join-us/expert-mentor/')]", "xpath:href"],
+        ["xpath=//li[5]/ul/li[2]/a", "xpath:position"]
+      ],
+      "value": ""
+    }, {
+      "id": "f496e5f6-6ea5-46f7-9aa4-8cbdb3e78673",
+      "comment": "",
+      "command": "assertText",
+      "target": "css=.media:nth-child(2) p:nth-child(2)",
+      "targets": [
+        ["css=.media:nth-child(2) p:nth-child(2)", "css:finder"],
+        ["xpath=//div[3]/div/div/p", "xpath:position"],
+        ["xpath=//p[contains(.,'The Education System has myriad issues from interest, attendance to teaching quality.')]", "xpath:innerText"]
+      ],
+      "value": "The Education System has myriad issues from interest, attendance to teaching quality."
+    }, {
+      "id": "4e3af910-22f8-4bf6-9fb3-6fa21f2cce9d",
+      "comment": "",
+      "command": "verifyText",
+      "target": "css=.media:nth-child(3) p:nth-child(2)",
+      "targets": [
+        ["css=.media:nth-child(3) p:nth-child(2)", "css:finder"],
+        ["xpath=//div[2]/div/p", "xpath:position"],
+        ["xpath=//p[contains(.,'Join Us and be part of talks, workshops and seminars, influencing students')]", "xpath:innerText"]
+      ],
+      "value": "Join Us and be part of talks, workshops and seminars, influencing students"
+    }, {
+      "id": "a96dea3b-8b7d-4683-8e14-70e9e541f220",
+      "comment": "",
+      "command": "mouseOver",
+      "target": "linkText=Brand Ambassador",
+      "targets": [
+        ["linkText=Brand Ambassador", "linkText"],
+        ["css=.button-w3layouts:nth-child(6) > a", "css:finder"],
+        ["xpath=(//a[contains(text(),'Brand Ambassador')])[2]", "xpath:link"],
+        ["xpath=(//a[contains(@href, '/join-us/brand-ambassador/')])[2]", "xpath:href"],
+        ["xpath=//div/ul/li[6]/a", "xpath:position"]
+      ],
+      "value": ""
+    }]
+  }, {
+    "id": "3544f33e-4221-4672-aa61-a86a5bb2c7f8",
+    "name": "evevoele",
+    "commands": [{
+      "id": "bd060079-2ef1-4bdf-985a-618ab475fc4b",
+      "comment": "",
+      "command": "open",
+      "target": "/",
+      "targets": [],
+      "value": ""
+    }, {
+      "id": "4c9c174a-1d5b-4361-9edb-f42a8e27132b",
+      "comment": "",
+      "command": "setWindowSize",
+      "target": "1382x744",
+      "targets": [],
+      "value": ""
+    }, {
+      "id": "ecd46ba5-3ea6-4b11-bf59-091babaefd82",
+      "comment": "",
+      "command": "click",
+      "target": "linkText=Join Us",
+      "targets": [
+        ["linkText=Join Us", "linkText"],
+        ["css=.dropdown:nth-child(5) > .dropdown-toggle", "css:finder"],
+        ["xpath=//a[contains(text(),'Join Us')]", "xpath:link"],
+        ["xpath=//nav[@id='link-effect-3']/ul/li[5]/a", "xpath:idRelative"],
+        ["xpath=(//a[contains(@href, '#')])[5]", "xpath:href"],
+        ["xpath=//nav/ul/li[5]/a", "xpath:position"],
+        ["xpath=//a[contains(.,'Join Us')]", "xpath:innerText"]
+      ],
+      "value": ""
+    }, {
+      "id": "de4751c3-b178-49ad-9208-59c16cc3b4aa",
+      "comment": "",
+      "command": "click",
+      "target": "linkText=Events Volunteer",
+      "targets": [
+        ["linkText=Events Volunteer", "linkText"],
+        ["css=.open li:nth-child(3) > a", "css:finder"],
+        ["xpath=//a[contains(text(),'Events Volunteer')]", "xpath:link"],
+        ["xpath=//nav[@id='link-effect-3']/ul/li[5]/ul/li[3]/a", "xpath:idRelative"],
+        ["xpath=//a[contains(@href, '/join-us/events-volunteer/')]", "xpath:href"],
+        ["xpath=//li[5]/ul/li[3]/a", "xpath:position"],
+        ["xpath=//a[contains(.,'Events Volunteer')]", "xpath:innerText"]
+      ],
+      "value": ""
+    }, {
+      "id": "5b049352-8d80-4c90-9b0f-b5ce0ad84a8d",
+      "comment": "",
+      "command": "verifyText",
+      "target": "css=.tittle-agileits-w3layouts > span",
+      "targets": [
+        ["css=.tittle-agileits-w3layouts > span", "css:finder"],
+        ["xpath=//h3/span", "xpath:position"]
+      ],
+      "value": "Be An Events Volunteer"
+    }, {
+      "id": "b9da8568-8581-4e0c-84a5-4c7487733886",
+      "comment": "",
+      "command": "assertText",
+      "target": "css=.media:nth-child(2) p:nth-child(2)",
+      "targets": [
+        ["css=.media:nth-child(2) p:nth-child(2)", "css:finder"],
+        ["xpath=//div[3]/div/div/p", "xpath:position"],
+        ["xpath=//p[contains(.,'A unique global, multicultural & rare diverse working environment available for interns. We are located across the world and ensure successful projects.')]", "xpath:innerText"]
+      ],
+      "value": "A unique global, multicultural & rare diverse working environment available for interns. We are located across the world and ensure successful projects."
+    }, {
+      "id": "bce12999-2931-4b2c-b9b7-64645c1c3bcd",
+      "comment": "",
+      "command": "verifyText",
+      "target": "css=.media:nth-child(3) h4",
+      "targets": [
+        ["css=.media:nth-child(3) h4", "css:finder"],
+        ["xpath=//div[2]/div/h4", "xpath:position"],
+        ["xpath=//h4[contains(.,'What')]", "xpath:innerText"]
+      ],
+      "value": "What"
+    }, {
+      "id": "3c673f8f-1b7c-4aaf-882b-41cf355d8b8c",
+      "comment": "",
+      "command": "mouseOver",
+      "target": "linkText=Internship Positions",
+      "targets": [
+        ["linkText=Internship Positions", "linkText"],
+        ["css=.button-w3layouts:nth-child(5) > a", "css:finder"],
+        ["xpath=(//a[contains(text(),'Internship Positions')])[2]", "xpath:link"],
+        ["xpath=(//a[contains(@href, '/join-us/internship-positions/')])[2]", "xpath:href"],
+        ["xpath=//div/ul/li[5]/a", "xpath:position"]
+      ],
+      "value": ""
+    }, {
+      "id": "d30a9ba4-2531-4fe3-8d96-5b5953dac85e",
+      "comment": "",
+      "command": "waitForElementPresent",
+      "target": "css=.para-w3-agile:nth-child(1)",
+      "targets": [
+        ["css=.para-w3-agile:nth-child(1)", "css:finder"],
+        ["xpath=//p", "xpath:position"],
+        ["xpath=//p[contains(.,'The best way to find yourself is to lose yourself in the service of others.')]", "xpath:innerText"]
+      ],
+      "value": "2"
+    }]
+  }, {
+    "id": "7c6b3925-ca19-465b-9a2d-9afc8015ff74",
+    "name": "managementvoele",
+    "commands": [{
+      "id": "424a80c6-6807-414e-abc5-f7f60d9327d7",
+      "comment": "",
+      "command": "open",
+      "target": "/",
+      "targets": [],
+      "value": ""
+    }, {
+      "id": "67bbf2ef-9581-4c0a-8bad-94c7c182cf14",
+      "comment": "",
+      "command": "setWindowSize",
+      "target": "1382x744",
+      "targets": [],
+      "value": ""
+    }, {
+      "id": "1c5d4927-e45c-4b3a-9e4e-ab9cdaed35c5",
+      "comment": "",
+      "command": "click",
+      "target": "linkText=Join Us",
+      "targets": [
+        ["linkText=Join Us", "linkText"],
+        ["css=.dropdown:nth-child(5) > .dropdown-toggle", "css:finder"],
+        ["xpath=//a[contains(text(),'Join Us')]", "xpath:link"],
+        ["xpath=//nav[@id='link-effect-3']/ul/li[5]/a", "xpath:idRelative"],
+        ["xpath=(//a[contains(@href, '#')])[5]", "xpath:href"],
+        ["xpath=//nav/ul/li[5]/a", "xpath:position"],
+        ["xpath=//a[contains(.,'Join Us')]", "xpath:innerText"]
+      ],
+      "value": ""
+    }, {
+      "id": "6412eb6b-35ac-400d-90bf-42159b0fae81",
+      "comment": "",
+      "command": "click",
+      "target": "linkText=Management Volunteer",
+      "targets": [
+        ["linkText=Management Volunteer", "linkText"],
+        ["css=.open li:nth-child(4) > a", "css:finder"],
+        ["xpath=//a[contains(text(),'Management Volunteer')]", "xpath:link"],
+        ["xpath=//nav[@id='link-effect-3']/ul/li[5]/ul/li[4]/a", "xpath:idRelative"],
+        ["xpath=//a[contains(@href, '/join-us/management-volunteer/')]", "xpath:href"],
+        ["xpath=//li[5]/ul/li[4]/a", "xpath:position"],
+        ["xpath=//a[contains(.,'Management Volunteer')]", "xpath:innerText"]
+      ],
+      "value": ""
+    }, {
+      "id": "280bc76e-788d-49af-9832-a0fb0775edd8",
+      "comment": "",
+      "command": "waitForElementPresent",
+      "target": "css=.para-w3-agile:nth-child(1)",
+      "targets": [
+        ["css=.para-w3-agile:nth-child(1)", "css:finder"],
+        ["xpath=//p", "xpath:position"],
+        ["xpath=//p[contains(.,'Management is all about managing in the short term, while developing the plans for the long term.')]", "xpath:innerText"]
+      ],
+      "value": "2"
+    }, {
+      "id": "ab17f0e0-2291-4e40-8e91-2ae27ef9d2e6",
+      "comment": "",
+      "command": "verifyText",
+      "target": "css=.tittle-agileits-w3layouts:nth-child(1) > span",
+      "targets": [
+        ["css=.tittle-agileits-w3layouts:nth-child(1) > span", "css:finder"],
+        ["xpath=//h3/span", "xpath:position"]
+      ],
+      "value": "Be A Management Volunteer"
+    }, {
+      "id": "69b850be-a9cf-4276-9388-955d2df13679",
+      "comment": "",
+      "command": "verifyText",
+      "target": "css=.media:nth-child(3) p:nth-child(2)",
+      "targets": [
+        ["css=.media:nth-child(3) p:nth-child(2)", "css:finder"],
+        ["xpath=//div[2]/div/p", "xpath:position"],
+        ["xpath=//p[contains(.,'Lead and implement various initiatives/programs to connect and reach out to students/experts/directors.')]", "xpath:innerText"]
+      ],
+      "value": "Lead and implement various initiatives/programs to connect and reach out to students/experts/directors."
+    }]
+  }, {
+    "id": "6fe80810-26df-4cf6-ad1a-f9ef444f479f",
+    "name": "managementvoele2",
+    "commands": [{
+      "id": "e2bbc7c2-feea-49d5-99b8-0a9c68d97dad",
+      "comment": "",
+      "command": "open",
+      "target": "/",
+      "targets": [],
+      "value": ""
+    }, {
+      "id": "983b3105-17fb-4936-b19e-a9ecc49e90db",
+      "comment": "",
+      "command": "setWindowSize",
+      "target": "1382x744",
+      "targets": [],
+      "value": ""
+    }, {
+      "id": "5a121a17-bd90-42fa-bf7e-a6c9a6b45a43",
+      "comment": "",
+      "command": "click",
+      "target": "linkText=Join Us",
+      "targets": [
+        ["linkText=Join Us", "linkText"],
+        ["css=.dropdown:nth-child(5) > .dropdown-toggle", "css:finder"],
+        ["xpath=//a[contains(text(),'Join Us')]", "xpath:link"],
+        ["xpath=//nav[@id='link-effect-3']/ul/li[5]/a", "xpath:idRelative"],
+        ["xpath=(//a[contains(@href, '#')])[5]", "xpath:href"],
+        ["xpath=//nav/ul/li[5]/a", "xpath:position"],
+        ["xpath=//a[contains(.,'Join Us')]", "xpath:innerText"]
+      ],
+      "value": ""
+    }, {
+      "id": "f052c8d5-90d5-48af-8c61-8b46a3c9f3a0",
+      "comment": "",
+      "command": "click",
+      "target": "linkText=Management Volunteer",
+      "targets": [
+        ["linkText=Management Volunteer", "linkText"],
+        ["css=.open li:nth-child(4) > a", "css:finder"],
+        ["xpath=//a[contains(text(),'Management Volunteer')]", "xpath:link"],
+        ["xpath=//nav[@id='link-effect-3']/ul/li[5]/ul/li[4]/a", "xpath:idRelative"],
+        ["xpath=//a[contains(@href, '/join-us/management-volunteer/')]", "xpath:href"],
+        ["xpath=//li[5]/ul/li[4]/a", "xpath:position"],
+        ["xpath=//a[contains(.,'Management Volunteer')]", "xpath:innerText"]
+      ],
+      "value": ""
+    }, {
+      "id": "49090f4d-2797-4760-81ca-33b10a500375",
+      "comment": "",
+      "command": "assertText",
+      "target": "css=.tittle-agileits-w3layouts:nth-child(4) > span",
+      "targets": [
+        ["css=.tittle-agileits-w3layouts:nth-child(4) > span", "css:finder"],
+        ["xpath=//h3[2]/span", "xpath:position"],
+        ["xpath=//span[contains(.,'Functions Available')]", "xpath:innerText"]
+      ],
+      "value": "Functions Available"
+    }, {
+      "id": "88461d59-1e76-458d-8863-5e684575442c",
+      "comment": "",
+      "command": "verifyText",
+      "target": "css=.media:nth-child(5) > .media-body:nth-child(1) > h4:nth-child(1)",
+      "targets": [
+        ["css=.media:nth-child(5) > .media-body:nth-child(1) > h4:nth-child(1)", "css:finder"],
+        ["xpath=//div[3]/div/h4", "xpath:position"],
+        ["xpath=//h4[contains(.,'Website & Apps')]", "xpath:innerText"]
+      ],
+      "value": "Website & Apps"
+    }, {
+      "id": "4b045c6b-9780-48b6-9f06-d4ba8ae65786",
+      "comment": "",
+      "command": "assertTitle",
+      "target": "The Sparks Foundation | Home",
+      "targets": [],
+      "value": ""
+    }, {
+      "id": "4b67d0d9-6bf3-4f7c-9a4d-fac1144b47a8",
+      "comment": "",
+      "command": "waitForElementEditable",
+      "target": "name=Email",
+      "targets": [
+        ["name=Email", "name"],
+        ["css=input:nth-child(2)", "css:finder"],
+        ["xpath=//input[@name='Email']", "xpath:attributes"],
+        ["xpath=//input[2]", "xpath:position"]
+      ],
+      "value": "2"
+    }, {
+      "id": "3fe9287a-09ba-4084-ba2a-72988380b3d6",
+      "comment": "",
+      "command": "click",
+      "target": "css=.blog-w3ls",
+      "targets": [
+        ["css=.blog-w3ls", "css:finder"],
+        ["xpath=//div[2]/div/div/div", "xpath:position"]
+      ],
+      "value": ""
+    }, {
+      "id": "d9aa70d2-f86f-4a83-bc9f-9cdc7b8a3e7d",
+      "comment": "",
+      "command": "mouseOver",
+      "target": "linkText=Management Volunteer",
+      "targets": [
+        ["linkText=Management Volunteer", "linkText"],
+        ["css=.button-w3layouts:nth-child(4) > a", "css:finder"],
+        ["xpath=(//a[contains(text(),'Management Volunteer')])[2]", "xpath:link"],
+        ["xpath=(//a[contains(@href, '/join-us/management-volunteer/')])[2]", "xpath:href"],
+        ["xpath=//div/ul/li[4]/a", "xpath:position"]
+      ],
+      "value": ""
+    }]
+  }, {
+    "id": "31dd77c0-94f0-4752-865e-4f846883ecf1",
+    "name": "intposele",
+    "commands": [{
+      "id": "f126b608-291a-400c-844d-7760b0f1c983",
+      "comment": "",
+      "command": "open",
+      "target": "/",
+      "targets": [],
+      "value": ""
+    }, {
+      "id": "10e830c4-2f5d-4322-b648-81ff4f0d518e",
+      "comment": "",
+      "command": "setWindowSize",
+      "target": "1382x744",
+      "targets": [],
+      "value": ""
+    }, {
+      "id": "d357f93c-dcd2-4bf1-b7d2-d597617c1077",
+      "comment": "",
+      "command": "click",
+      "target": "linkText=Join Us",
+      "targets": [
+        ["linkText=Join Us", "linkText"],
+        ["css=.dropdown:nth-child(5) > .dropdown-toggle", "css:finder"],
+        ["xpath=//a[contains(text(),'Join Us')]", "xpath:link"],
+        ["xpath=//nav[@id='link-effect-3']/ul/li[5]/a", "xpath:idRelative"],
+        ["xpath=(//a[contains(@href, '#')])[5]", "xpath:href"],
+        ["xpath=//nav/ul/li[5]/a", "xpath:position"],
+        ["xpath=//a[contains(.,'Join Us')]", "xpath:innerText"]
+      ],
+      "value": ""
+    }, {
+      "id": "38f5a0c3-6897-451d-8849-663c6716d69c",
+      "comment": "",
+      "command": "click",
+      "target": "linkText=Internship Positions",
+      "targets": [
+        ["linkText=Internship Positions", "linkText"],
+        ["css=.open li:nth-child(5) > a", "css:finder"],
+        ["xpath=//a[contains(text(),'Internship Positions')]", "xpath:link"],
+        ["xpath=//nav[@id='link-effect-3']/ul/li[5]/ul/li[5]/a", "xpath:idRelative"],
+        ["xpath=//a[contains(@href, '/join-us/internship-positions/')]", "xpath:href"],
+        ["xpath=//li[5]/ul/li[5]/a", "xpath:position"],
+        ["xpath=//a[contains(.,'Internship Positions')]", "xpath:innerText"]
+      ],
+      "value": ""
+    }, {
+      "id": "90201d98-1552-4b1d-8279-00fb92746c75",
+      "comment": "",
+      "command": "waitForElementPresent",
+      "target": "css=.tittle-agileits-w3layouts:nth-child(1) > span",
+      "targets": [
+        ["css=.tittle-agileits-w3layouts:nth-child(1) > span", "css:finder"],
+        ["xpath=//h3/span", "xpath:position"],
+        ["xpath=//span[contains(.,'Graduate Rotational Internship Program')]", "xpath:innerText"]
+      ],
+      "value": "2"
+    }, {
+      "id": "0213d673-3d4e-43ee-93b3-e4eda3fe98b3",
+      "comment": "",
+      "command": "assertElementPresent",
+      "target": "css=.media:nth-child(2) p:nth-child(2)",
+      "targets": [
+        ["css=.media:nth-child(2) p:nth-child(2)", "css:finder"],
+        ["xpath=//div[3]/div/div/p", "xpath:position"],
+        ["xpath=//p[contains(.,'Workshops/guidance for personality insights, LinkedIn profile building, interviews skills, further education, etc. Paid Job Offer after 12 months.')]", "xpath:innerText"]
+      ],
+      "value": ""
+    }, {
+      "id": "6f0fe84e-261a-4f3e-b74c-2b3bb3f604fa",
+      "comment": "",
+      "command": "verifyText",
+      "target": "css=.media:nth-child(3) p:nth-child(2)",
+      "targets": [
+        ["css=.media:nth-child(3) p:nth-child(2)", "css:finder"],
+        ["xpath=//div[2]/div/p", "xpath:position"],
+        ["xpath=//p[contains(.,'An intern will start with a function he/she is most comfortable with. The function will remain unchanged for at least three months.')]", "xpath:innerText"]
+      ],
+      "value": "An intern will start with a function he/she is most comfortable with. The function will remain unchanged for at least three months."
+    }, {
+      "id": "bf7ff37e-bc5a-4677-bcdd-95528ebf70b2",
+      "comment": "",
+      "command": "verifyElementPresent",
+      "target": "css=.para-w3-agile:nth-child(1)",
+      "targets": [
+        ["css=.para-w3-agile:nth-child(1)", "css:finder"],
+        ["xpath=//p", "xpath:position"],
+        ["xpath=//p[contains(.,'Choose a job you love, and you will never have to work a day in your life.')]", "xpath:innerText"]
+      ],
+      "value": ""
+    }, {
+      "id": "ccfccacd-ea02-41d5-a7a5-f143f3f62b3b",
+      "comment": "",
+      "command": "verifyText",
+      "target": "css=.para-w3-agile:nth-child(1)",
+      "targets": [
+        ["css=.para-w3-agile:nth-child(1)", "css:finder"],
+        ["xpath=//p", "xpath:position"],
+        ["xpath=//p[contains(.,'Choose a job you love, and you will never have to work a day in your life.')]", "xpath:innerText"]
+      ],
+      "value": "Choose a job you love, and you will never have to work a day in your life."
+    }]
+  }, {
+    "id": "667f59b0-7e70-467f-b067-cf330adee94a",
+    "name": "intposele2",
+    "commands": [{
+      "id": "ca416fa6-6c6a-40b3-af60-3e894c204ff4",
+      "comment": "",
+      "command": "open",
+      "target": "/",
+      "targets": [],
+      "value": ""
+    }, {
+      "id": "9161e9e8-89b2-49e4-9d62-ec894b41a981",
+      "comment": "",
+      "command": "setWindowSize",
+      "target": "1382x744",
+      "targets": [],
+      "value": ""
+    }, {
+      "id": "7b2e8064-09c1-4866-b2ed-77fdb2de355f",
+      "comment": "",
+      "command": "click",
+      "target": "linkText=Join Us",
+      "targets": [
+        ["linkText=Join Us", "linkText"],
+        ["css=.dropdown:nth-child(5) > .dropdown-toggle", "css:finder"],
+        ["xpath=//a[contains(text(),'Join Us')]", "xpath:link"],
+        ["xpath=//nav[@id='link-effect-3']/ul/li[5]/a", "xpath:idRelative"],
+        ["xpath=(//a[contains(@href, '#')])[5]", "xpath:href"],
+        ["xpath=//nav/ul/li[5]/a", "xpath:position"],
+        ["xpath=//a[contains(.,'Join Us')]", "xpath:innerText"]
+      ],
+      "value": ""
+    }, {
+      "id": "baa72314-0baf-452a-961c-905efd611981",
+      "comment": "",
+      "command": "click",
+      "target": "linkText=Internship Positions",
+      "targets": [
+        ["linkText=Internship Positions", "linkText"],
+        ["css=.open li:nth-child(5) > a", "css:finder"],
+        ["xpath=//a[contains(text(),'Internship Positions')]", "xpath:link"],
+        ["xpath=//nav[@id='link-effect-3']/ul/li[5]/ul/li[5]/a", "xpath:idRelative"],
+        ["xpath=//a[contains(@href, '/join-us/internship-positions/')]", "xpath:href"],
+        ["xpath=//li[5]/ul/li[5]/a", "xpath:position"],
+        ["xpath=//a[contains(.,'Internship Positions')]", "xpath:innerText"]
+      ],
+      "value": ""
+    }, {
+      "id": "73941216-df49-4d0a-8df3-0a4f356b609e",
+      "comment": "",
+      "command": "mouseOver",
+      "target": "linkText=Internship Positions",
+      "targets": [
+        ["linkText=Internship Positions", "linkText"],
+        ["css=.button-w3layouts:nth-child(5) > a", "css:finder"],
+        ["xpath=(//a[contains(text(),'Internship Positions')])[2]", "xpath:link"],
+        ["xpath=(//a[contains(@href, '/join-us/internship-positions/')])[2]", "xpath:href"],
+        ["xpath=//div/ul/li[5]/a", "xpath:position"]
+      ],
+      "value": ""
+    }, {
+      "id": "dd0366ad-3ee1-4c80-a4c6-acba24673834",
+      "comment": "",
+      "command": "verifyText",
+      "target": "css=.media-body:nth-child(3) > h4:nth-child(3)",
+      "targets": [
+        ["css=.media-body:nth-child(3) > h4:nth-child(3)", "css:finder"],
+        ["xpath=//div[3]/h4[2]", "xpath:position"],
+        ["xpath=//h4[contains(.,'Finance & Risk')]", "xpath:innerText"]
+      ],
+      "value": "Finance & Risk"
+    }, {
+      "id": "27204ae7-ac30-4bbc-8593-150dc17477b8",
+      "comment": "",
+      "command": "waitForText",
+      "target": "css=.media:nth-child(3) p:nth-child(3)",
+      "targets": [
+        ["css=.media:nth-child(3) p:nth-child(3)", "css:finder"],
+        ["xpath=//div[2]/div/p[2]", "xpath:position"],
+        ["xpath=//p[contains(.,'At the end of three months, the intern can choose to move to any other function of his/her interest.')]", "xpath:innerText"]
+      ],
+      "value": "At the end of three months, the intern can choose to move to any other function of his/her interest."
+    }, {
+      "id": "3ba6c391-518a-485e-8bfc-082cdab9e536",
+      "comment": "",
+      "command": "waitForElementEditable",
+      "target": "css=.form-control",
+      "targets": [
+        ["css=.form-control", "css:finder"],
+        ["xpath=//select", "xpath:position"]
+      ],
+      "value": "2"
+    }, {
+      "id": "17af1e10-453f-4483-9b7a-4f39e85814a6",
+      "comment": "",
+      "command": "click",
+      "target": "css=.form-control",
+      "targets": [
+        ["css=.form-control", "css:finder"],
+        ["xpath=//select", "xpath:position"]
+      ],
+      "value": ""
+    }]
+  }, {
+    "id": "17ee411a-c89e-4158-bdf5-ad6fa95455b7",
+    "name": "baele",
+    "commands": [{
+      "id": "455df1e2-5f0d-44c3-aab1-ea1c491389cc",
+      "comment": "",
+      "command": "open",
+      "target": "/",
+      "targets": [],
+      "value": ""
+    }, {
+      "id": "2ad47e93-891b-4a00-b0bd-1d47d1869c0f",
+      "comment": "",
+      "command": "setWindowSize",
+      "target": "1382x744",
+      "targets": [],
+      "value": ""
+    }, {
+      "id": "5cfbd013-6576-4e68-b362-c539da0824a0",
+      "comment": "",
+      "command": "click",
+      "target": "linkText=Join Us",
+      "targets": [
+        ["linkText=Join Us", "linkText"],
+        ["css=.dropdown:nth-child(5) > .dropdown-toggle", "css:finder"],
+        ["xpath=//a[contains(text(),'Join Us')]", "xpath:link"],
+        ["xpath=//nav[@id='link-effect-3']/ul/li[5]/a", "xpath:idRelative"],
+        ["xpath=(//a[contains(@href, '#')])[5]", "xpath:href"],
+        ["xpath=//nav/ul/li[5]/a", "xpath:position"],
+        ["xpath=//a[contains(.,'Join Us')]", "xpath:innerText"]
+      ],
+      "value": ""
+    }, {
+      "id": "5e9b2f6b-4cf4-4cb4-bf52-ccccd461b059",
+      "comment": "",
+      "command": "click",
+      "target": "linkText=Brand Ambassador",
+      "targets": [
+        ["linkText=Brand Ambassador", "linkText"],
+        ["css=.open li:nth-child(6) > a", "css:finder"],
+        ["xpath=//a[contains(text(),'Brand Ambassador')]", "xpath:link"],
+        ["xpath=//nav[@id='link-effect-3']/ul/li[5]/ul/li[6]/a", "xpath:idRelative"],
+        ["xpath=//a[contains(@href, '/join-us/brand-ambassador/')]", "xpath:href"],
+        ["xpath=//li[5]/ul/li[6]/a", "xpath:position"],
+        ["xpath=//a[contains(.,'Brand Ambassador')]", "xpath:innerText"]
+      ],
+      "value": ""
+    }, {
+      "id": "bc32ff6e-0f27-4a23-bfb1-a25b4cb249ae",
+      "comment": "",
+      "command": "verifyText",
+      "target": "css=.para-w3-agile:nth-child(1)",
+      "targets": [
+        ["css=.para-w3-agile:nth-child(1)", "css:finder"],
+        ["xpath=//p", "xpath:position"],
+        ["xpath=//p[contains(.,'Education promotes equality and lifts people out of poverty. It teaches children how to become good citizens. Education is not just for a privileged few, it is for everyone. It is a fundamental human right.')]", "xpath:innerText"]
+      ],
+      "value": "Education promotes equality and lifts people out of poverty. It teaches children how to become good citizens. Education is not just for a privileged few, it is for everyone. It is a fundamental human right."
+    }, {
+      "id": "7572d694-ae70-474d-9ae1-e58409627396",
+      "comment": "",
+      "command": "verifyText",
+      "target": "css=.media:nth-child(2) p",
+      "targets": [
+        ["css=.media:nth-child(2) p", "css:finder"],
+        ["xpath=//div[3]/div/div/p", "xpath:position"],
+        ["xpath=//p[contains(.,'Project a positive image of The Sparks Foundation on campus, have the opportunity to compete in fun challenges to build brand awareness on campus, and learn valuable skills about brand building.')]", "xpath:innerText"]
+      ],
+      "value": "Project a positive image of The Sparks Foundation on campus, have the opportunity to compete in fun challenges to build brand awareness on campus, and learn valuable skills about brand building."
+    }, {
+      "id": "35e83ce6-a8a4-46a6-b51c-a04d5dbf1fcd",
+      "comment": "",
+      "command": "assertText",
+      "target": "css=.media:nth-child(3) p",
+      "targets": [
+        ["css=.media:nth-child(3) p", "css:finder"],
+        ["xpath=//div[2]/div/p", "xpath:position"],
+        ["xpath=//p[contains(.,'Must be an effective communicator and have an entrepreneurial spirit. We’re looking for a go-getter who is comfortable collaborating with Experts, Students, Mentors, Speakers and Corporate Partners of The Sparks Foundation.')]", "xpath:innerText"]
+      ],
+      "value": "Must be an effective communicator and have an entrepreneurial spirit. We’re looking for a go-getter who is comfortable collaborating with Experts, Students, Mentors, Speakers and Corporate Partners of The Sparks Foundation."
+    }, {
+      "id": "ae81e1ad-5838-41b0-b7e2-cbbd2bf4948a",
+      "comment": "",
+      "command": "verifyEditable",
+      "target": "name=Name",
+      "targets": [
+        ["name=Name", "name"],
+        ["css=input:nth-child(1)", "css:finder"],
+        ["xpath=//input[@name='Name']", "xpath:attributes"],
+        ["xpath=//input", "xpath:position"]
+      ],
+      "value": ""
+    }, {
+      "id": "cf1d808e-3a98-44ac-b37a-316a2f0ae997",
+      "comment": "",
+      "command": "mouseOver",
+      "target": "css=form > .button-w3layouts",
+      "targets": [
+        ["css=form > .button-w3layouts", "css:finder"],
+        ["xpath=//input[@value='Submit']", "xpath:attributes"],
+        ["xpath=//input[3]", "xpath:position"]
+      ],
+      "value": ""
+    }, {
+      "id": "e64968c7-cb0f-4903-a29e-f1773c8e3e2f",
+      "comment": "",
+      "command": "click",
+      "target": "css=form > .button-w3layouts",
+      "targets": [
+        ["css=form > .button-w3layouts", "css:finder"],
+        ["xpath=//input[@value='Submit']", "xpath:attributes"],
+        ["xpath=//input[3]", "xpath:position"]
+      ],
+      "value": ""
+    }]
+  }, {
+    "id": "8a5949c1-89a4-4eaa-9fe5-28c4c6c1e7de",
+    "name": "textele",
+    "commands": [{
+      "id": "f97a0824-98f8-48fa-94d5-ab3e18ee419d",
+      "comment": "",
+      "command": "open",
+      "target": "/",
+      "targets": [],
+      "value": ""
+    }, {
+      "id": "8879071b-d3d6-4c43-b8ff-14379130aebb",
+      "comment": "",
+      "command": "setWindowSize",
+      "target": "1382x744",
+      "targets": [],
+      "value": ""
+    }, {
+      "id": "8d3bc1cc-dc63-4752-91df-fb2d2064024f",
+      "comment": "",
+      "command": "click",
+      "target": "linkText=Join Us",
+      "targets": [
+        ["linkText=Join Us", "linkText"],
+        ["css=.dropdown:nth-child(5) > .dropdown-toggle", "css:finder"],
+        ["xpath=//a[contains(text(),'Join Us')]", "xpath:link"],
+        ["xpath=//nav[@id='link-effect-3']/ul/li[5]/a", "xpath:idRelative"],
+        ["xpath=(//a[contains(@href, '#')])[5]", "xpath:href"],
+        ["xpath=//nav/ul/li[5]/a", "xpath:position"],
+        ["xpath=//a[contains(.,'Join Us')]", "xpath:innerText"]
+      ],
+      "value": ""
+    }, {
+      "id": "828e6b73-6d09-4970-b50d-8a45fd90fdf2",
+      "comment": "",
+      "command": "click",
+      "target": "linkText=Brand Ambassador",
+      "targets": [
+        ["linkText=Brand Ambassador", "linkText"],
+        ["css=.open li:nth-child(6) > a", "css:finder"],
+        ["xpath=//a[contains(text(),'Brand Ambassador')]", "xpath:link"],
+        ["xpath=//nav[@id='link-effect-3']/ul/li[5]/ul/li[6]/a", "xpath:idRelative"],
+        ["xpath=//a[contains(@href, '/join-us/brand-ambassador/')]", "xpath:href"],
+        ["xpath=//li[5]/ul/li[6]/a", "xpath:position"],
+        ["xpath=//a[contains(.,'Brand Ambassador')]", "xpath:innerText"]
+      ],
+      "value": ""
+    }, {
+      "id": "1da30d2f-987d-4cc7-b64d-01bff96deb24",
+      "comment": "",
+      "command": "verifyText",
+      "target": "css=.para-w3-agile:nth-child(1)",
+      "targets": [
+        ["css=.para-w3-agile:nth-child(1)", "css:finder"],
+        ["xpath=//p", "xpath:position"],
+        ["xpath=//p[contains(.,'Education promotes equality and lifts people out of poverty. It teaches children how to become good citizens. Education is not just for a privileged few, it is for everyone. It is a fundamental human right.')]", "xpath:innerText"]
+      ],
+      "value": "Education promotes equality and lifts people out of poverty. It teaches children how to become good citizens. Education is not just for a privileged few, it is for everyone. It is a fundamental human right."
+    }, {
+      "id": "5f661592-cc52-4315-a385-d43e10a2f76e",
+      "comment": "",
+      "command": "assertText",
+      "target": "css=.para-w3-agile:nth-child(1)",
+      "targets": [
+        ["css=.para-w3-agile:nth-child(1)", "css:finder"],
+        ["xpath=//p", "xpath:position"],
+        ["xpath=//p[contains(.,'Education promotes equality and lifts people out of poverty. It teaches children how to become good citizens. Education is not just for a privileged few, it is for everyone. It is a fundamental human right.')]", "xpath:innerText"]
+      ],
+      "value": "Education promotes equality and lifts people out of poverty. It teaches children how to become good citizens. Education is not just for a privileged few, it is for everyone. It is a fundamental human right."
+    }, {
+      "id": "4a33cc2b-ed29-4f05-a3db-6fbccfb85447",
+      "comment": "",
+      "command": "waitForText",
+      "target": "css=.para-w3-agile:nth-child(1)",
+      "targets": [
+        ["css=.para-w3-agile:nth-child(1)", "css:finder"],
+        ["xpath=//p", "xpath:position"],
+        ["xpath=//p[contains(.,'Education promotes equality and lifts people out of poverty. It teaches children how to become good citizens. Education is not just for a privileged few, it is for everyone. It is a fundamental human right.')]", "xpath:innerText"]
+      ],
+      "value": "Education promotes equality and lifts people out of poverty. It teaches children how to become good citizens. Education is not just for a privileged few, it is for everyone. It is a fundamental human right."
+    }]
+  }, {
+    "id": "5165fb5c-8e2b-4f88-9450-be79eda0a4ab",
+    "name": "textele2",
+    "commands": [{
+      "id": "4ef94eea-aeb2-4a0b-ac5d-6e1af3e28623",
+      "comment": "",
+      "command": "open",
+      "target": "/",
+      "targets": [],
+      "value": ""
+    }, {
+      "id": "f714070f-a3aa-4b80-878a-9638ac062b8e",
+      "comment": "",
+      "command": "setWindowSize",
+      "target": "1382x744",
+      "targets": [],
+      "value": ""
+    }, {
+      "id": "ff3d40a8-0c3b-43b3-bf47-051d5d6b81a5",
+      "comment": "",
+      "command": "click",
+      "target": "linkText=Join Us",
+      "targets": [
+        ["linkText=Join Us", "linkText"],
+        ["css=.dropdown:nth-child(5) > .dropdown-toggle", "css:finder"],
+        ["xpath=//a[contains(text(),'Join Us')]", "xpath:link"],
+        ["xpath=//nav[@id='link-effect-3']/ul/li[5]/a", "xpath:idRelative"],
+        ["xpath=(//a[contains(@href, '#')])[5]", "xpath:href"],
+        ["xpath=//nav/ul/li[5]/a", "xpath:position"],
+        ["xpath=//a[contains(.,'Join Us')]", "xpath:innerText"]
+      ],
+      "value": ""
+    }, {
+      "id": "1692fd61-14c8-42d3-80dc-15d3ba997c5f",
+      "comment": "",
+      "command": "click",
+      "target": "linkText=Brand Ambassador",
+      "targets": [
+        ["linkText=Brand Ambassador", "linkText"],
+        ["css=.open li:nth-child(6) > a", "css:finder"],
+        ["xpath=//a[contains(text(),'Brand Ambassador')]", "xpath:link"],
+        ["xpath=//nav[@id='link-effect-3']/ul/li[5]/ul/li[6]/a", "xpath:idRelative"],
+        ["xpath=//a[contains(@href, '/join-us/brand-ambassador/')]", "xpath:href"],
+        ["xpath=//li[5]/ul/li[6]/a", "xpath:position"],
+        ["xpath=//a[contains(.,'Brand Ambassador')]", "xpath:innerText"]
+      ],
+      "value": ""
+    }, {
+      "id": "7c148d4d-ffff-4260-afc7-2b01f1ff45c3",
+      "comment": "",
+      "command": "mouseOver",
+      "target": "linkText=Brand Ambassador",
+      "targets": [
+        ["linkText=Brand Ambassador", "linkText"],
+        ["css=.button-w3layouts:nth-child(6) > a", "css:finder"],
+        ["xpath=(//a[contains(text(),'Brand Ambassador')])[2]", "xpath:link"],
+        ["xpath=(//a[contains(@href, '/join-us/brand-ambassador/')])[2]", "xpath:href"],
+        ["xpath=//div/ul/li[6]/a", "xpath:position"]
+      ],
+      "value": ""
+    }, {
+      "id": "980172d8-9de4-4369-9f26-ddecf9927050",
+      "comment": "",
+      "command": "verifyText",
+      "target": "css=.media-body:nth-child(2) > h4:nth-child(1)",
+      "targets": [
+        ["css=.media-body:nth-child(2) > h4:nth-child(1)", "css:finder"],
+        ["xpath=//div[2]/h4", "xpath:position"],
+        ["xpath=//h4[contains(.,'Respect')]", "xpath:innerText"]
+      ],
+      "value": "Respect"
+    }, {
+      "id": "5db696ee-621d-4223-8c29-d197b0a06ec5",
+      "comment": "",
+      "command": "verifyText",
+      "target": "css=.media-body:nth-child(3) > h4:nth-child(3)",
+      "targets": [
+        ["css=.media-body:nth-child(3) > h4:nth-child(3)", "css:finder"],
+        ["xpath=//div[3]/h4[2]", "xpath:position"],
+        ["xpath=//h4[contains(.,'Quality')]", "xpath:innerText"]
+      ],
+      "value": "Quality"
+    }, {
+      "id": "3f9917f8-1ccc-41a2-beee-da77f15f420d",
+      "comment": "",
+      "command": "assertText",
+      "target": "css=.media-body:nth-child(2) > h4:nth-child(5)",
+      "targets": [
+        ["css=.media-body:nth-child(2) > h4:nth-child(5)", "css:finder"],
+        ["xpath=//div[2]/h4[3]", "xpath:position"],
+        ["xpath=//h4[contains(.,'Training')]", "xpath:innerText"]
+      ],
+      "value": "Training"
+    }, {
+      "id": "d5f9da7b-69a7-4787-a61b-e7138d1f382e",
+      "comment": "",
+      "command": "assertText",
+      "target": "css=.media-body:nth-child(3) > h4:nth-child(5)",
+      "targets": [
+        ["css=.media-body:nth-child(3) > h4:nth-child(5)", "css:finder"],
+        ["xpath=//div[3]/h4[3]", "xpath:position"],
+        ["xpath=//h4[contains(.,'Professionalism')]", "xpath:innerText"]
+      ],
+      "value": "Professionalism"
+    }, {
+      "id": "56a1e2e6-ad27-45d4-b80e-a36ab71b1576",
+      "comment": "",
+      "command": "waitForText",
+      "target": "css=.media-body:nth-child(1) > h4:nth-child(5)",
+      "targets": [
+        ["css=.media-body:nth-child(1) > h4:nth-child(5)", "css:finder"],
+        ["xpath=//h4[3]", "xpath:position"],
+        ["xpath=//h4[contains(.,'Integrity')]", "xpath:innerText"]
+      ],
+      "value": "Integrity"
+    }]
+  }],
+  "suites": [{
+    "id": "676a4a93-b6e0-44e7-a146-a45833121a12",
+    "name": "Default Suite",
+    "persistSession": false,
+    "parallel": false,
+    "timeout": 300,
+    "tests": ["ab76f605-b177-437f-a0af-4a2393a58d78"]
+  }],
+  "urls": ["https://www.thesparksfoundationsingapore.org/"],
+  "plugins": []
+}

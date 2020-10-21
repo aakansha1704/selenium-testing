@@ -1,0 +1,787 @@
+{
+  "id": "6f26c6f4-6d18-4345-93a2-d8224a50df50",
+  "version": "2.0",
+  "name": "GRIPTSFn2",
+  "url": "https://www.thesparksfoundationsingapore.org",
+  "tests": [{
+    "id": "c944a20e-c7ed-4125-893d-15c621c5d07c",
+    "name": "Policyele",
+    "commands": [{
+      "id": "70b8d2cc-7822-4486-b55c-8175f414126d",
+      "comment": "",
+      "command": "open",
+      "target": "/",
+      "targets": [],
+      "value": ""
+    }, {
+      "id": "01d9cfde-7d8a-45f1-8143-24a032add768",
+      "comment": "",
+      "command": "setWindowSize",
+      "target": "1382x744",
+      "targets": [],
+      "value": ""
+    }, {
+      "id": "bbe8a864-e2ea-46b0-b50a-9d269d71cbee",
+      "comment": "",
+      "command": "click",
+      "target": "linkText=Policies and Code",
+      "targets": [
+        ["linkText=Policies and Code", "linkText"],
+        ["css=.dropdown:nth-child(2) > .dropdown-toggle", "css:finder"],
+        ["xpath=//a[contains(text(),'Policies and Code')]", "xpath:link"],
+        ["xpath=//nav[@id='link-effect-3']/ul/li[2]/a", "xpath:idRelative"],
+        ["xpath=(//a[contains(@href, '#')])[2]", "xpath:href"],
+        ["xpath=//nav/ul/li[2]/a", "xpath:position"],
+        ["xpath=//a[contains(.,'Policies and Code')]", "xpath:innerText"]
+      ],
+      "value": ""
+    }, {
+      "id": "a0f9406b-769d-4127-b18f-5dd7b1e6ecb7",
+      "comment": "",
+      "command": "click",
+      "target": "linkText=Policies",
+      "targets": [
+        ["linkText=Policies", "linkText"],
+        ["css=.open li:nth-child(1) > a", "css:finder"],
+        ["xpath=(//a[contains(text(),'Policies')])[2]", "xpath:link"],
+        ["xpath=//nav[@id='link-effect-3']/ul/li[2]/ul/li/a", "xpath:idRelative"],
+        ["xpath=//a[contains(@href, '/policies-and-code/policies/')]", "xpath:href"],
+        ["xpath=//li[2]/ul/li/a", "xpath:position"]
+      ],
+      "value": ""
+    }, {
+      "id": "074ee55c-932c-43e7-b286-3ec17ecd2f7d",
+      "comment": "",
+      "command": "verifyEditable",
+      "target": "css=.button-w3layouts:nth-child(1)",
+      "targets": [
+        ["css=.button-w3layouts:nth-child(1)", "css:finder"],
+        ["xpath=//div[2]/div/ul/li", "xpath:position"]
+      ],
+      "value": ""
+    }]
+  }, {
+    "id": "81934ca9-8aca-4fe0-ae85-70a7271ffb7a",
+    "name": "policyele2",
+    "commands": [{
+      "id": "7b34657b-9c90-43c0-bf88-d7a13b36f3ae",
+      "comment": "",
+      "command": "open",
+      "target": "/",
+      "targets": [],
+      "value": ""
+    }, {
+      "id": "e2c1ab27-95c9-46ee-b2c7-327b3da517ed",
+      "comment": "",
+      "command": "setWindowSize",
+      "target": "1382x744",
+      "targets": [],
+      "value": ""
+    }, {
+      "id": "65aa543f-4ab2-4fe2-892b-327ce2bdb775",
+      "comment": "",
+      "command": "click",
+      "target": "linkText=Policies and Code",
+      "targets": [
+        ["linkText=Policies and Code", "linkText"],
+        ["css=.dropdown:nth-child(2) > .dropdown-toggle", "css:finder"],
+        ["xpath=//a[contains(text(),'Policies and Code')]", "xpath:link"],
+        ["xpath=//nav[@id='link-effect-3']/ul/li[2]/a", "xpath:idRelative"],
+        ["xpath=(//a[contains(@href, '#')])[2]", "xpath:href"],
+        ["xpath=//nav/ul/li[2]/a", "xpath:position"],
+        ["xpath=//a[contains(.,'Policies and Code')]", "xpath:innerText"]
+      ],
+      "value": ""
+    }, {
+      "id": "66b27100-b92a-4d05-a819-503ca5e13eea",
+      "comment": "",
+      "command": "click",
+      "target": "linkText=Policies",
+      "targets": [
+        ["linkText=Policies", "linkText"],
+        ["css=.open li:nth-child(1) > a", "css:finder"],
+        ["xpath=(//a[contains(text(),'Policies')])[2]", "xpath:link"],
+        ["xpath=//nav[@id='link-effect-3']/ul/li[2]/ul/li/a", "xpath:idRelative"],
+        ["xpath=//a[contains(@href, '/policies-and-code/policies/')]", "xpath:href"],
+        ["xpath=//li[2]/ul/li/a", "xpath:position"]
+      ],
+      "value": ""
+    }, {
+      "id": "831c1d98-9974-4c65-b94a-dcfce2e55f32",
+      "comment": "",
+      "command": "verifyText",
+      "target": "css=.media:nth-child(4) p:nth-child(3)",
+      "targets": [
+        ["css=.media:nth-child(4) p:nth-child(3)", "css:finder"],
+        ["xpath=//div[3]/div/p[2]", "xpath:position"],
+        ["xpath=//p[contains(.,'Annual Budgets are approved by the Board before adoption and monitored regularly. Payments are regulated by a payment process and in accordance with the mandate for payment.')]", "xpath:innerText"]
+      ],
+      "value": "Annual Budgets are approved by the Board before adoption and monitored regularly. Payments are regulated by a payment process and in accordance with the mandate for payment."
+    }, {
+      "id": "6736dcc3-fbe9-4841-8725-b24e16de477b",
+      "comment": "",
+      "command": "waitForElementPresent",
+      "target": "css=.button-w3layouts:nth-child(5)",
+      "targets": [
+        ["css=.button-w3layouts:nth-child(5)", "css:finder"],
+        ["xpath=//div/ul/li[5]", "xpath:position"]
+      ],
+      "value": "2"
+    }, {
+      "id": "c50bcde1-043d-4e78-bb93-94c243a59017",
+      "comment": "",
+      "command": "assertTitle",
+      "target": "The Sparks Foundation | Home",
+      "targets": [],
+      "value": ""
+    }]
+  }, {
+    "id": "dc195f13-aa8b-4b3f-9717-35041de7459b",
+    "name": "personaldataele",
+    "commands": [{
+      "id": "8353f0d8-ffa8-40d7-8047-3bbf0bc2c0c0",
+      "comment": "",
+      "command": "open",
+      "target": "/",
+      "targets": [],
+      "value": ""
+    }, {
+      "id": "e590e8e6-7e7c-4a5a-9072-43a173a3f012",
+      "comment": "",
+      "command": "setWindowSize",
+      "target": "1382x744",
+      "targets": [],
+      "value": ""
+    }, {
+      "id": "8d94c328-ccc6-4e99-adb2-4d778f6ea80c",
+      "comment": "",
+      "command": "click",
+      "target": "linkText=Policies and Code",
+      "targets": [
+        ["linkText=Policies and Code", "linkText"],
+        ["css=.dropdown:nth-child(2) > .dropdown-toggle", "css:finder"],
+        ["xpath=//a[contains(text(),'Policies and Code')]", "xpath:link"],
+        ["xpath=//nav[@id='link-effect-3']/ul/li[2]/a", "xpath:idRelative"],
+        ["xpath=(//a[contains(@href, '#')])[2]", "xpath:href"],
+        ["xpath=//nav/ul/li[2]/a", "xpath:position"],
+        ["xpath=//a[contains(.,'Policies and Code')]", "xpath:innerText"]
+      ],
+      "value": ""
+    }, {
+      "id": "444d0cb2-8397-4acc-8455-7e87f5eec204",
+      "comment": "",
+      "command": "click",
+      "target": "linkText=Personal Data Policy",
+      "targets": [
+        ["linkText=Personal Data Policy", "linkText"],
+        ["css=.open li:nth-child(3) > a", "css:finder"],
+        ["xpath=//a[contains(text(),'Personal Data Policy')]", "xpath:link"],
+        ["xpath=//nav[@id='link-effect-3']/ul/li[2]/ul/li[3]/a", "xpath:idRelative"],
+        ["xpath=//a[contains(@href, '/policies-and-code/personal-data-policy/')]", "xpath:href"],
+        ["xpath=//li[2]/ul/li[3]/a", "xpath:position"],
+        ["xpath=//a[contains(.,'Personal Data Policy')]", "xpath:innerText"]
+      ],
+      "value": ""
+    }, {
+      "id": "762c8599-a684-4dcd-b583-5311bd1cf271",
+      "comment": "",
+      "command": "verifyText",
+      "target": "css=h5:nth-child(1)",
+      "targets": [
+        ["css=h5:nth-child(1)", "css:finder"],
+        ["xpath=//h5", "xpath:position"],
+        ["xpath=//h5[contains(.,'The Sparks Foundation (‘we’, ‘us’, ‘our’, etc.) respects the right of individuals to protect their personal data.')]", "xpath:innerText"]
+      ],
+      "value": "The Sparks Foundation (‘we’, ‘us’, ‘our’, etc.) respects the right of individuals to protect their personal data."
+    }, {
+      "id": "96bb0cfe-57e0-497f-80d3-e7ababa46379",
+      "comment": "",
+      "command": "waitForText",
+      "target": "css=h5:nth-child(1)",
+      "targets": [
+        ["css=h5:nth-child(1)", "css:finder"],
+        ["xpath=//h5", "xpath:position"],
+        ["xpath=//h5[contains(.,'The Sparks Foundation (‘we’, ‘us’, ‘our’, etc.) respects the right of individuals to protect their personal data.')]", "xpath:innerText"]
+      ],
+      "value": "The Sparks Foundation (‘we’, ‘us’, ‘our’, etc.) respects the right of individuals to protect their personal data."
+    }, {
+      "id": "bf790e8f-0dbd-47a1-bda2-66e201a59822",
+      "comment": "",
+      "command": "waitForElementVisible",
+      "target": "css=.button-w3layouts:nth-child(5)",
+      "targets": [
+        ["css=.button-w3layouts:nth-child(5)", "css:finder"],
+        ["xpath=//div/ul/li[5]", "xpath:position"]
+      ],
+      "value": "2"
+    }, {
+      "id": "58ca9148-8c6c-48ea-b699-7b9193559664",
+      "comment": "",
+      "command": "mouseOver",
+      "target": "css=.button-w3layouts:nth-child(5)",
+      "targets": [
+        ["css=.button-w3layouts:nth-child(5)", "css:finder"],
+        ["xpath=//div/ul/li[5]", "xpath:position"]
+      ],
+      "value": ""
+    }, {
+      "id": "e1eba3d9-89e1-4cf4-9176-ac3a8c9894bd",
+      "comment": "",
+      "command": "",
+      "target": "",
+      "targets": [],
+      "value": ""
+    }]
+  }, {
+    "id": "12a35f92-170f-4f44-853f-2d93374a1a8b",
+    "name": "personaldataele2",
+    "commands": [{
+      "id": "47812bb0-1d00-4cab-bcd8-5256d60ed916",
+      "comment": "",
+      "command": "open",
+      "target": "/",
+      "targets": [],
+      "value": ""
+    }, {
+      "id": "44a97c29-1942-4307-854e-c1832e248aa2",
+      "comment": "",
+      "command": "setWindowSize",
+      "target": "1382x744",
+      "targets": [],
+      "value": ""
+    }, {
+      "id": "02039e9c-8786-4659-a160-8f58ef5ac56c",
+      "comment": "",
+      "command": "click",
+      "target": "linkText=Policies and Code",
+      "targets": [
+        ["linkText=Policies and Code", "linkText"],
+        ["css=.dropdown:nth-child(2) > .dropdown-toggle", "css:finder"],
+        ["xpath=//a[contains(text(),'Policies and Code')]", "xpath:link"],
+        ["xpath=//nav[@id='link-effect-3']/ul/li[2]/a", "xpath:idRelative"],
+        ["xpath=(//a[contains(@href, '#')])[2]", "xpath:href"],
+        ["xpath=//nav/ul/li[2]/a", "xpath:position"],
+        ["xpath=//a[contains(.,'Policies and Code')]", "xpath:innerText"]
+      ],
+      "value": ""
+    }, {
+      "id": "8a72c831-fe84-4950-898c-45908f2fffdd",
+      "comment": "",
+      "command": "waitForElementPresent",
+      "target": "linkText=Personal Data Policy",
+      "targets": [
+        ["linkText=Personal Data Policy", "linkText"],
+        ["css=.open li:nth-child(3) > a", "css:finder"],
+        ["xpath=//a[contains(text(),'Personal Data Policy')]", "xpath:link"],
+        ["xpath=//nav[@id='link-effect-3']/ul/li[2]/ul/li[3]/a", "xpath:idRelative"],
+        ["xpath=//a[contains(@href, '/policies-and-code/personal-data-policy/')]", "xpath:href"],
+        ["xpath=//li[2]/ul/li[3]/a", "xpath:position"],
+        ["xpath=//a[contains(.,'Personal Data Policy')]", "xpath:innerText"]
+      ],
+      "value": "2"
+    }, {
+      "id": "b8a99a01-945f-4b8a-8200-6a50051869da",
+      "comment": "",
+      "command": "click",
+      "target": "linkText=Personal Data Policy",
+      "targets": [
+        ["linkText=Personal Data Policy", "linkText"],
+        ["css=.open li:nth-child(3) > a", "css:finder"],
+        ["xpath=//a[contains(text(),'Personal Data Policy')]", "xpath:link"],
+        ["xpath=//nav[@id='link-effect-3']/ul/li[2]/ul/li[3]/a", "xpath:idRelative"],
+        ["xpath=//a[contains(@href, '/policies-and-code/personal-data-policy/')]", "xpath:href"],
+        ["xpath=//li[2]/ul/li[3]/a", "xpath:position"],
+        ["xpath=//a[contains(.,'Personal Data Policy')]", "xpath:innerText"]
+      ],
+      "value": ""
+    }, {
+      "id": "63acc092-ba5b-434f-9420-34c06906196a",
+      "comment": "",
+      "command": "mouseOver",
+      "target": "css=.button-w3layouts:nth-child(3)",
+      "targets": [
+        ["css=.button-w3layouts:nth-child(3)", "css:finder"],
+        ["xpath=//div/ul/li[3]", "xpath:position"]
+      ],
+      "value": ""
+    }, {
+      "id": "0b5b2166-9d4f-427b-9a16-5e8f1142504e",
+      "comment": "",
+      "command": "mouseOver",
+      "target": "css=.button-w3layouts:nth-child(5)",
+      "targets": [
+        ["css=.button-w3layouts:nth-child(5)", "css:finder"],
+        ["xpath=//div/ul/li[5]", "xpath:position"]
+      ],
+      "value": ""
+    }, {
+      "id": "3c21df09-02f3-4bac-a31e-84b323692335",
+      "comment": "",
+      "command": "assertText",
+      "target": "css=h5:nth-child(16)",
+      "targets": [
+        ["css=h5:nth-child(16)", "css:finder"],
+        ["xpath=//h5[2]", "xpath:position"],
+        ["xpath=//h5[contains(.,'1. Definitions')]", "xpath:innerText"]
+      ],
+      "value": "1. Definitions"
+    }, {
+      "id": "9ba02cd2-4f76-423c-b593-2d61e8b6f0c1",
+      "comment": "",
+      "command": "",
+      "target": "",
+      "targets": [],
+      "value": ""
+    }]
+  }, {
+    "id": "2adf13e8-b4e6-4c60-8fc8-7e18c1b2ea17",
+    "name": "footerele",
+    "commands": [{
+      "id": "af5e4b37-d4a4-4c5f-91ac-3b792a16ed9f",
+      "comment": "",
+      "command": "open",
+      "target": "/",
+      "targets": [],
+      "value": ""
+    }, {
+      "id": "88e18f0e-4e8f-4238-8cab-4347a5ded106",
+      "comment": "",
+      "command": "setWindowSize",
+      "target": "1382x744",
+      "targets": [],
+      "value": ""
+    }, {
+      "id": "16ca5e2d-8cbb-4d65-b858-49a8540c9764",
+      "comment": "",
+      "command": "verifyElementPresent",
+      "target": "css=.top-header-agile-right li:nth-child(2) > a",
+      "targets": [
+        ["css=.top-header-agile-right li:nth-child(2) > a", "css:finder"],
+        ["xpath=//a[contains(@href, 'https://www.linkedin.com/company/the-sparks-foundation/')]", "xpath:href"],
+        ["xpath=//div/div/ul/li[2]/a", "xpath:position"]
+      ],
+      "value": ""
+    }, {
+      "id": "0ec0cc72-e748-4f6a-848a-20d949d6197e",
+      "comment": "",
+      "command": "waitForElementVisible",
+      "target": "css=.fa-linkedin",
+      "targets": [
+        ["css=.fa-linkedin", "css:finder"],
+        ["xpath=//li[2]/a/i", "xpath:position"]
+      ],
+      "value": "2"
+    }]
+  }, {
+    "id": "7b96fd40-dd93-4ec7-9ac4-50859f9fd38e",
+    "name": "whistlepgele",
+    "commands": [{
+      "id": "bbe44790-807b-4438-86d6-cc1fe30208cd",
+      "comment": "",
+      "command": "open",
+      "target": "/",
+      "targets": [],
+      "value": ""
+    }, {
+      "id": "a00d3bf2-e2a5-4155-818d-1f57d27e0416",
+      "comment": "",
+      "command": "setWindowSize",
+      "target": "1382x744",
+      "targets": [],
+      "value": ""
+    }, {
+      "id": "cf172ea4-c25d-403b-b313-3fbe8de478b5",
+      "comment": "",
+      "command": "click",
+      "target": "linkText=Policies and Code",
+      "targets": [
+        ["linkText=Policies and Code", "linkText"],
+        ["css=.dropdown:nth-child(2) > .dropdown-toggle", "css:finder"],
+        ["xpath=//a[contains(text(),'Policies and Code')]", "xpath:link"],
+        ["xpath=//nav[@id='link-effect-3']/ul/li[2]/a", "xpath:idRelative"],
+        ["xpath=(//a[contains(@href, '#')])[2]", "xpath:href"],
+        ["xpath=//nav/ul/li[2]/a", "xpath:position"],
+        ["xpath=//a[contains(.,'Policies and Code')]", "xpath:innerText"]
+      ],
+      "value": ""
+    }, {
+      "id": "f813e3b6-daf9-4a84-bd00-407139c2b6d8",
+      "comment": "",
+      "command": "click",
+      "target": "linkText=Whistle Blowing Policy",
+      "targets": [
+        ["linkText=Whistle Blowing Policy", "linkText"],
+        ["css=.open li:nth-child(4) > a", "css:finder"],
+        ["xpath=//a[contains(text(),'Whistle Blowing Policy')]", "xpath:link"],
+        ["xpath=//nav[@id='link-effect-3']/ul/li[2]/ul/li[4]/a", "xpath:idRelative"],
+        ["xpath=//a[contains(@href, '/policies-and-code/whistle-blowing-policy/')]", "xpath:href"],
+        ["xpath=//li[2]/ul/li[4]/a", "xpath:position"],
+        ["xpath=//a[contains(.,'Whistle Blowing Policy')]", "xpath:innerText"]
+      ],
+      "value": ""
+    }, {
+      "id": "67931f0f-7b34-40ea-a15e-11de851dc9b8",
+      "comment": "",
+      "command": "verifyText",
+      "target": "css=.media-body > p:nth-child(2)",
+      "targets": [
+        ["css=.media-body > p:nth-child(2)", "css:finder"],
+        ["xpath=//p[2]", "xpath:position"]
+      ],
+      "value": "This Policy aims to achieve the following:-\\na). Establish a trusted avenue for employees, vendors, clients and external stakeholders to report serious wrongdoings or concerns without fear of reprisals when whistleblowing in good faith.\\nb). Ensure arrangements are in place to facilitate independent investigation of the reported concern and appropriate follow-up actions will be taken.\\nc). Encourage employees to raise concerns at an early stage to an internal authority so that actions could be taken immediately to resolve them."
+    }, {
+      "id": "75141c69-235c-44cb-b3fe-7edfb4ed55fe",
+      "comment": "",
+      "command": "assertText",
+      "target": "css=.tittle-agileits-w3layouts > span",
+      "targets": [
+        ["css=.tittle-agileits-w3layouts > span", "css:finder"],
+        ["xpath=//h3/span", "xpath:position"],
+        ["xpath=//span[contains(.,'Procedure, Purpose & Scope')]", "xpath:innerText"]
+      ],
+      "value": "Procedure, Purpose & Scope"
+    }]
+  }, {
+    "id": "0b8c6704-a03d-4af5-9b2d-f001cd49e348",
+    "name": "servicequalityele",
+    "commands": [{
+      "id": "3d6e1657-f81a-4a4e-a424-6ab35aa3c81a",
+      "comment": "",
+      "command": "open",
+      "target": "/",
+      "targets": [],
+      "value": ""
+    }, {
+      "id": "cdce652f-188b-4dda-af29-5022f11e4c33",
+      "comment": "",
+      "command": "setWindowSize",
+      "target": "1382x744",
+      "targets": [],
+      "value": ""
+    }, {
+      "id": "00bbcc8a-98fd-44fa-b813-c8d1eaa91d7b",
+      "comment": "",
+      "command": "click",
+      "target": "linkText=Policies and Code",
+      "targets": [
+        ["linkText=Policies and Code", "linkText"],
+        ["css=.dropdown:nth-child(2) > .dropdown-toggle", "css:finder"],
+        ["xpath=//a[contains(text(),'Policies and Code')]", "xpath:link"],
+        ["xpath=//nav[@id='link-effect-3']/ul/li[2]/a", "xpath:idRelative"],
+        ["xpath=(//a[contains(@href, '#')])[2]", "xpath:href"],
+        ["xpath=//nav/ul/li[2]/a", "xpath:position"],
+        ["xpath=//a[contains(.,'Policies and Code')]", "xpath:innerText"]
+      ],
+      "value": ""
+    }, {
+      "id": "8a3eeefe-2b64-405e-a3e5-19637409469f",
+      "comment": "",
+      "command": "click",
+      "target": "linkText=Service Quality Values",
+      "targets": [
+        ["linkText=Service Quality Values", "linkText"],
+        ["css=.open li:nth-child(5) > a", "css:finder"],
+        ["xpath=//a[contains(text(),'Service Quality Values')]", "xpath:link"],
+        ["xpath=//nav[@id='link-effect-3']/ul/li[2]/ul/li[5]/a", "xpath:idRelative"],
+        ["xpath=//a[contains(@href, '/policies-and-code/service-quality-values/')]", "xpath:href"],
+        ["xpath=//li[2]/ul/li[5]/a", "xpath:position"],
+        ["xpath=//a[contains(.,'Service Quality Values')]", "xpath:innerText"]
+      ],
+      "value": ""
+    }, {
+      "id": "30c58c23-1e01-4b00-a61e-2310ff151739",
+      "comment": "",
+      "command": "verifyText",
+      "target": "css=.media-body > p:nth-child(1)",
+      "targets": [
+        ["css=.media-body > p:nth-child(1)", "css:finder"],
+        ["xpath=//p", "xpath:position"]
+      ],
+      "value": "As an organisation working with children and for education, we are committed to service quality through:"
+    }, {
+      "id": "9bb51fd8-dd99-4e54-bddd-132df6d68d00",
+      "comment": "",
+      "command": "assertText",
+      "target": "css=p:nth-child(5)",
+      "targets": [
+        ["css=p:nth-child(5)", "css:finder"],
+        ["xpath=//p[2]", "xpath:position"],
+        ["xpath=//p[contains(.,'We serve with integrity and strive to excel in our work')]", "xpath:innerText"]
+      ],
+      "value": "We serve with integrity and strive to excel in our work"
+    }, {
+      "id": "e45432af-f66e-4998-9e41-ae0288ca5c33",
+      "comment": "",
+      "command": "mouseOver",
+      "target": "linkText=Whistle Blowing Policy",
+      "targets": [
+        ["linkText=Whistle Blowing Policy", "linkText"],
+        ["css=.button-w3layouts:nth-child(4) > a", "css:finder"],
+        ["xpath=(//a[contains(text(),'Whistle Blowing Policy')])[2]", "xpath:link"],
+        ["xpath=(//a[contains(@href, '/policies-and-code/whistle-blowing-policy/')])[2]", "xpath:href"],
+        ["xpath=//div/ul/li[4]/a", "xpath:position"]
+      ],
+      "value": ""
+    }]
+  }, {
+    "id": "f7860f72-e1a9-4801-8c00-b8da0623b9dc",
+    "name": "ethicele",
+    "commands": [{
+      "id": "1f1eb08c-be13-4cc6-a076-57bde76c13b0",
+      "comment": "",
+      "command": "open",
+      "target": "/",
+      "targets": [],
+      "value": ""
+    }, {
+      "id": "5f2fd5b7-7a3c-4fc1-8652-2ee50da39b8c",
+      "comment": "",
+      "command": "setWindowSize",
+      "target": "1382x744",
+      "targets": [],
+      "value": ""
+    }, {
+      "id": "b9e30d43-4add-4f49-9838-c61852e27323",
+      "comment": "",
+      "command": "click",
+      "target": "linkText=Policies and Code",
+      "targets": [
+        ["linkText=Policies and Code", "linkText"],
+        ["css=.dropdown:nth-child(2) > .dropdown-toggle", "css:finder"],
+        ["xpath=//a[contains(text(),'Policies and Code')]", "xpath:link"],
+        ["xpath=//nav[@id='link-effect-3']/ul/li[2]/a", "xpath:idRelative"],
+        ["xpath=(//a[contains(@href, '#')])[2]", "xpath:href"],
+        ["xpath=//nav/ul/li[2]/a", "xpath:position"],
+        ["xpath=//a[contains(.,'Policies and Code')]", "xpath:innerText"]
+      ],
+      "value": ""
+    }, {
+      "id": "06ed9f48-5496-40e6-bf7d-fb17fcd30660",
+      "comment": "",
+      "command": "click",
+      "target": "linkText=Code of Ethics and Conduct",
+      "targets": [
+        ["linkText=Code of Ethics and Conduct", "linkText"],
+        ["css=.open li:nth-child(2) > a", "css:finder"],
+        ["xpath=//a[contains(text(),'Code of Ethics and Conduct')]", "xpath:link"],
+        ["xpath=//nav[@id='link-effect-3']/ul/li[2]/ul/li[2]/a", "xpath:idRelative"],
+        ["xpath=//a[contains(@href, '/policies-and-code/code-of-ethics-and-conduct/')]", "xpath:href"],
+        ["xpath=//li[2]/ul/li[2]/a", "xpath:position"],
+        ["xpath=//a[contains(.,'Code of Ethics and Conduct')]", "xpath:innerText"]
+      ],
+      "value": ""
+    }, {
+      "id": "c39331bd-634e-41d4-a1d0-a65b04522154",
+      "comment": "",
+      "command": "assertText",
+      "target": "css=.media-body > h4",
+      "targets": [
+        ["css=.media-body > h4", "css:finder"],
+        ["xpath=//h4", "xpath:position"],
+        ["xpath=//h4[contains(.,'TSF Board members and employees are expected to:')]", "xpath:innerText"]
+      ],
+      "value": "TSF Board members and employees are expected to:"
+    }, {
+      "id": "4889571c-57a4-4dea-ba53-d5a6e426d7e1",
+      "comment": "",
+      "command": "verifyText",
+      "target": "css=.media-body > h4",
+      "targets": [
+        ["css=.media-body > h4", "css:finder"],
+        ["xpath=//h4", "xpath:position"],
+        ["xpath=//h4[contains(.,'TSF Board members and employees are expected to:')]", "xpath:innerText"]
+      ],
+      "value": "TSF Board members and employees are expected to:"
+    }, {
+      "id": "38b6496d-61ed-457e-b89f-a6da3530bbcf",
+      "comment": "",
+      "command": "assertTitle",
+      "target": "The Sparks Foundation | Home",
+      "targets": [],
+      "value": ""
+    }, {
+      "id": "1c54e242-9bb6-40d4-809d-9d9aa772cdca",
+      "comment": "",
+      "command": "mouseOver",
+      "target": "linkText=Personal Data Policy",
+      "targets": [
+        ["linkText=Personal Data Policy", "linkText"],
+        ["css=.button-w3layouts:nth-child(3) > a", "css:finder"],
+        ["xpath=(//a[contains(text(),'Personal Data Policy')])[2]", "xpath:link"],
+        ["xpath=(//a[contains(@href, '/policies-and-code/personal-data-policy/')])[2]", "xpath:href"],
+        ["xpath=//div/ul/li[3]/a", "xpath:position"]
+      ],
+      "value": ""
+    }, {
+      "id": "7b6ae8b2-4a87-41a2-aa73-3c65f18558c7",
+      "comment": "",
+      "command": "mouseOver",
+      "target": "linkText=Code of Ethics and Conduct",
+      "targets": [
+        ["linkText=Code of Ethics and Conduct", "linkText"],
+        ["css=.button-w3layouts:nth-child(2) > a", "css:finder"],
+        ["xpath=(//a[contains(text(),'Code of Ethics and Conduct')])[2]", "xpath:link"],
+        ["xpath=(//a[contains(@href, '/policies-and-code/code-of-ethics-and-conduct/')])[2]", "xpath:href"],
+        ["xpath=//div/ul/li[2]/a", "xpath:position"]
+      ],
+      "value": ""
+    }]
+  }, {
+    "id": "28ac717f-039e-4625-9cc8-3f553b76d586",
+    "name": "textele",
+    "commands": [{
+      "id": "b1d05975-428f-45fb-be75-717b2ca49d46",
+      "comment": "",
+      "command": "open",
+      "target": "/",
+      "targets": [],
+      "value": ""
+    }, {
+      "id": "af06a9b2-15f8-4f30-a96e-7650f4171376",
+      "comment": "",
+      "command": "setWindowSize",
+      "target": "1382x744",
+      "targets": [],
+      "value": ""
+    }, {
+      "id": "65cc9124-672d-4332-a39e-31f39bfdfb04",
+      "comment": "",
+      "command": "click",
+      "target": "linkText=Policies and Code",
+      "targets": [
+        ["linkText=Policies and Code", "linkText"],
+        ["css=.dropdown:nth-child(2) > .dropdown-toggle", "css:finder"],
+        ["xpath=//a[contains(text(),'Policies and Code')]", "xpath:link"],
+        ["xpath=//nav[@id='link-effect-3']/ul/li[2]/a", "xpath:idRelative"],
+        ["xpath=(//a[contains(@href, '#')])[2]", "xpath:href"],
+        ["xpath=//nav/ul/li[2]/a", "xpath:position"],
+        ["xpath=//a[contains(.,'Policies and Code')]", "xpath:innerText"]
+      ],
+      "value": ""
+    }, {
+      "id": "6e2fdb32-7404-4dc9-be5b-8aac1a5c79d1",
+      "comment": "",
+      "command": "click",
+      "target": "linkText=Personal Data Policy",
+      "targets": [
+        ["linkText=Personal Data Policy", "linkText"],
+        ["css=.open li:nth-child(3) > a", "css:finder"],
+        ["xpath=//a[contains(text(),'Personal Data Policy')]", "xpath:link"],
+        ["xpath=//nav[@id='link-effect-3']/ul/li[2]/ul/li[3]/a", "xpath:idRelative"],
+        ["xpath=//a[contains(@href, '/policies-and-code/personal-data-policy/')]", "xpath:href"],
+        ["xpath=//li[2]/ul/li[3]/a", "xpath:position"],
+        ["xpath=//a[contains(.,'Personal Data Policy')]", "xpath:innerText"]
+      ],
+      "value": ""
+    }, {
+      "id": "d9652c21-7971-4e30-9460-90c333a11bd6",
+      "comment": "",
+      "command": "verifyText",
+      "target": "css=h5:nth-child(45)",
+      "targets": [
+        ["css=h5:nth-child(45)", "css:finder"],
+        ["xpath=//h5[3]", "xpath:position"],
+        ["xpath=//h5[contains(.,'2. Purpose(s) for us collecting, using or disclosing personal data')]", "xpath:innerText"]
+      ],
+      "value": "2. Purpose(s) for us collecting, using or disclosing personal data"
+    }, {
+      "id": "1ed2829d-e269-419f-aac3-ed438a6b6e86",
+      "comment": "",
+      "command": "verifyElementPresent",
+      "target": "css=p:nth-child(59)",
+      "targets": [
+        ["css=p:nth-child(59)", "css:finder"],
+        ["xpath=//p[55]", "xpath:position"],
+        ["xpath=//p[contains(.,'If at any time you would prefer not to provide some personal data that we request, either during a discussion or in one of our forms or questionnaires, please let us know.')]", "xpath:innerText"]
+      ],
+      "value": ""
+    }, {
+      "id": "77dff120-3379-482e-bbf3-d5e7f6743805",
+      "comment": "",
+      "command": "assertText",
+      "target": "css=p:nth-child(75)",
+      "targets": [
+        ["css=p:nth-child(75)", "css:finder"],
+        ["xpath=//p[71]", "xpath:position"],
+        ["xpath=//p[contains(.,'We may collect personal data about you from another individual or organisation if you have given that other individual or organisation consent that allows it to disclose personal data to us. In that case, we will use or disclose personal data only for the purpose(s) for which the other individual or organisation disclosed it to us.')]", "xpath:innerText"]
+      ],
+      "value": "We may collect personal data about you from another individual or organisation if you have given that other individual or organisation consent that allows it to disclose personal data to us. In that case, we will use or disclose personal data only for the purpose(s) for which the other individual or organisation disclosed it to us."
+    }]
+  }, {
+    "id": "ac7d42ed-3646-404a-83be-ffdce6715924",
+    "name": "textele2",
+    "commands": [{
+      "id": "6d0ee977-9d47-49f7-a470-6995bad43266",
+      "comment": "",
+      "command": "open",
+      "target": "/",
+      "targets": [],
+      "value": ""
+    }, {
+      "id": "b6a71d7e-8e24-469f-811e-b0f6c80bf684",
+      "comment": "",
+      "command": "setWindowSize",
+      "target": "1382x744",
+      "targets": [],
+      "value": ""
+    }, {
+      "id": "03c88e75-6be0-4113-9988-53ff8a1f5dad",
+      "comment": "",
+      "command": "click",
+      "target": "linkText=Policies and Code",
+      "targets": [
+        ["linkText=Policies and Code", "linkText"],
+        ["css=.dropdown:nth-child(2) > .dropdown-toggle", "css:finder"],
+        ["xpath=//a[contains(text(),'Policies and Code')]", "xpath:link"],
+        ["xpath=//nav[@id='link-effect-3']/ul/li[2]/a", "xpath:idRelative"],
+        ["xpath=(//a[contains(@href, '#')])[2]", "xpath:href"],
+        ["xpath=//nav/ul/li[2]/a", "xpath:position"],
+        ["xpath=//a[contains(.,'Policies and Code')]", "xpath:innerText"]
+      ],
+      "value": ""
+    }, {
+      "id": "5f8a103a-0b51-487d-8d56-a2baab653fdb",
+      "comment": "",
+      "command": "click",
+      "target": "linkText=Personal Data Policy",
+      "targets": [
+        ["linkText=Personal Data Policy", "linkText"],
+        ["css=.open li:nth-child(3) > a", "css:finder"],
+        ["xpath=//a[contains(text(),'Personal Data Policy')]", "xpath:link"],
+        ["xpath=//nav[@id='link-effect-3']/ul/li[2]/ul/li[3]/a", "xpath:idRelative"],
+        ["xpath=//a[contains(@href, '/policies-and-code/personal-data-policy/')]", "xpath:href"],
+        ["xpath=//li[2]/ul/li[3]/a", "xpath:position"],
+        ["xpath=//a[contains(.,'Personal Data Policy')]", "xpath:innerText"]
+      ],
+      "value": ""
+    }, {
+      "id": "78828e85-0547-4bbd-8ca4-b39d44fbcdd9",
+      "comment": "",
+      "command": "assertText",
+      "target": "css=.banner-overlay-agileinfo",
+      "targets": [],
+      "value": " The Sparks Foundation\\n    ...inspiring,innovating,integrating\\n+65-8402-8590     INFO@THESPARKSFOUNDATION.SG\\nAbout Us\\nPolicies and Code\\nPrograms\\nLINKS\\nJoin Us\\nContact Us\\nPersonal Data Policy"
+    }, {
+      "id": "54460a53-0dfe-40c3-9574-78874ac71281",
+      "comment": "",
+      "command": "assertElementPresent",
+      "target": "css=p:nth-child(6)",
+      "targets": [
+        ["css=p:nth-child(6)", "css:finder"],
+        ["xpath=//p[5]", "xpath:position"],
+        ["xpath=//p[contains(.,'recognises both your right to protect personal data about you and our need to collect, use or disclose it for purposes that we believe are reasonable and appropriate in the circumstances of our charitable work and')]", "xpath:innerText"]
+      ],
+      "value": ""
+    }]
+  }],
+  "suites": [{
+    "id": "98103ede-123a-4011-979a-5dc415d81ede",
+    "name": "Default Suite",
+    "persistSession": false,
+    "parallel": false,
+    "timeout": 300,
+    "tests": ["c944a20e-c7ed-4125-893d-15c621c5d07c"]
+  }],
+  "urls": ["https://www.thesparksfoundationsingapore.org/"],
+  "plugins": []
+}

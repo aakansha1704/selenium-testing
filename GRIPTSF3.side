@@ -1,0 +1,724 @@
+{
+  "id": "da5ac3c7-663e-4ed0-993f-57fcfca25c80",
+  "version": "2.0",
+  "name": "GRIPTSF3",
+  "url": "https://www.thesparksfoundationsingapore.org",
+  "tests": [{
+    "id": "d44a0829-a30d-4e17-9382-93720ac30e21",
+    "name": "c7",
+    "commands": [{
+      "id": "d60656cc-193f-44cc-b43a-bb8163b2ffa2",
+      "comment": "",
+      "command": "open",
+      "target": "/",
+      "targets": [],
+      "value": ""
+    }, {
+      "id": "3ec41054-3e9e-4bc5-b869-e33f7f023438",
+      "comment": "",
+      "command": "setWindowSize",
+      "target": "1382x744",
+      "targets": [],
+      "value": ""
+    }, {
+      "id": "e9eec8a5-5e49-4987-ac54-7441d28ad0cc",
+      "comment": "",
+      "command": "click",
+      "target": "linkText=Programs",
+      "targets": [
+        ["linkText=Programs", "linkText"],
+        ["css=.dropdown:nth-child(3) > .dropdown-toggle", "css:finder"],
+        ["xpath=//a[contains(text(),'Programs')]", "xpath:link"],
+        ["xpath=//nav[@id='link-effect-3']/ul/li[3]/a", "xpath:idRelative"],
+        ["xpath=(//a[contains(@href, '#')])[3]", "xpath:href"],
+        ["xpath=//nav/ul/li[3]/a", "xpath:position"],
+        ["xpath=//a[contains(.,'Programs')]", "xpath:innerText"]
+      ],
+      "value": ""
+    }, {
+      "id": "184be7bd-aeec-4586-819c-9e5b89584d2d",
+      "comment": "",
+      "command": "click",
+      "target": "linkText=Workshops",
+      "targets": [
+        ["linkText=Workshops", "linkText"],
+        ["css=.open li:nth-child(4) > a", "css:finder"],
+        ["xpath=//a[contains(text(),'Workshops')]", "xpath:link"],
+        ["xpath=//nav[@id='link-effect-3']/ul/li[3]/ul/li[4]/a", "xpath:idRelative"],
+        ["xpath=//a[contains(@href, '/programs/workshops/')]", "xpath:href"],
+        ["xpath=//li[3]/ul/li[4]/a", "xpath:position"],
+        ["xpath=//a[contains(.,'Workshops')]", "xpath:innerText"]
+      ],
+      "value": ""
+    }, {
+      "id": "b9a4a5ea-4fd5-4502-b615-c69798be2bc7",
+      "comment": "",
+      "command": "waitForElementPresent",
+      "target": "linkText=Glimpses for Kids",
+      "targets": [
+        ["linkText=Glimpses for Kids", "linkText"],
+        ["css=.blog-grids-w3-agile:nth-child(1) h4 > a", "css:finder"],
+        ["xpath=//a[contains(text(),'Glimpses for Kids')]", "xpath:link"],
+        ["xpath=//a[contains(@href, '/programs/workshops/glimpses-for-kids-workshop/')]", "xpath:href"],
+        ["xpath=//h4/a", "xpath:position"],
+        ["xpath=//a[contains(.,'Glimpses for Kids')]", "xpath:innerText"]
+      ],
+      "value": "2"
+    }]
+  }, {
+    "id": "32704bc8-fb3d-41fa-b4dd-50cdb7c1dd0b",
+    "name": "checktitle",
+    "commands": [{
+      "id": "f614532c-9b9b-4365-a83c-c98c5e3d7e2c",
+      "comment": "",
+      "command": "open",
+      "target": "/",
+      "targets": [],
+      "value": ""
+    }, {
+      "id": "e42584e8-1fe3-4b2c-a2ef-8dd9cf232ae3",
+      "comment": "",
+      "command": "setWindowSize",
+      "target": "1382x744",
+      "targets": [],
+      "value": ""
+    }, {
+      "id": "c6a74e30-cc7f-4fbe-9350-cba0d041b951",
+      "comment": "",
+      "command": "click",
+      "target": "linkText=Programs",
+      "targets": [
+        ["linkText=Programs", "linkText"],
+        ["css=.dropdown:nth-child(3) > .dropdown-toggle", "css:finder"],
+        ["xpath=//a[contains(text(),'Programs')]", "xpath:link"],
+        ["xpath=//nav[@id='link-effect-3']/ul/li[3]/a", "xpath:idRelative"],
+        ["xpath=(//a[contains(@href, '#')])[3]", "xpath:href"],
+        ["xpath=//nav/ul/li[3]/a", "xpath:position"],
+        ["xpath=//a[contains(.,'Programs')]", "xpath:innerText"]
+      ],
+      "value": ""
+    }, {
+      "id": "35b2f26e-9413-4459-95f3-224c7fdd1dbc",
+      "comment": "",
+      "command": "click",
+      "target": "linkText=Student Scholarship Program",
+      "targets": [
+        ["linkText=Student Scholarship Program", "linkText"],
+        ["css=.open li:nth-child(1) > a", "css:finder"],
+        ["xpath=//a[contains(text(),'Student Scholarship Program')]", "xpath:link"],
+        ["xpath=//nav[@id='link-effect-3']/ul/li[3]/ul/li/a", "xpath:idRelative"],
+        ["xpath=//a[contains(@href, '/programs/student-scholarship-program/')]", "xpath:href"],
+        ["xpath=//li[3]/ul/li/a", "xpath:position"],
+        ["xpath=//a[contains(.,'Student Scholarship Program')]", "xpath:innerText"]
+      ],
+      "value": ""
+    }, {
+      "id": "952571e5-00c6-4347-8252-eb1b94703af1",
+      "comment": "",
+      "command": "verifyTitle",
+      "target": "The Sparks Foundation | Home",
+      "targets": [],
+      "value": ""
+    }, {
+      "id": "5c1ee2eb-eba9-42cd-9970-eb2b9041720f",
+      "comment": "",
+      "command": "assertTitle",
+      "target": "The Sparks Foundation | Home",
+      "targets": [],
+      "value": ""
+    }]
+  }, {
+    "id": "9ea44e8b-de07-4c16-8312-c5f7f2747fca",
+    "name": "c2",
+    "commands": [{
+      "id": "0c76ce06-98cf-4a57-abdb-ff5053f8a776",
+      "comment": "",
+      "command": "open",
+      "target": "/",
+      "targets": [],
+      "value": ""
+    }, {
+      "id": "8c43fa6e-38cd-4102-8211-3a2189c6a1a8",
+      "comment": "",
+      "command": "setWindowSize",
+      "target": "1382x744",
+      "targets": [],
+      "value": ""
+    }, {
+      "id": "f5e58cdd-9101-468b-ad88-93a33c83e685",
+      "comment": "",
+      "command": "click",
+      "target": "linkText=Programs",
+      "targets": [
+        ["linkText=Programs", "linkText"],
+        ["css=.dropdown:nth-child(3) > .dropdown-toggle", "css:finder"],
+        ["xpath=//a[contains(text(),'Programs')]", "xpath:link"],
+        ["xpath=//nav[@id='link-effect-3']/ul/li[3]/a", "xpath:idRelative"],
+        ["xpath=(//a[contains(@href, '#')])[3]", "xpath:href"],
+        ["xpath=//nav/ul/li[3]/a", "xpath:position"],
+        ["xpath=//a[contains(.,'Programs')]", "xpath:innerText"]
+      ],
+      "value": ""
+    }, {
+      "id": "e5226fdd-4d32-408c-83ec-28fbb8801228",
+      "comment": "",
+      "command": "click",
+      "target": "linkText=Student Scholarship Program",
+      "targets": [
+        ["linkText=Student Scholarship Program", "linkText"],
+        ["css=.open li:nth-child(1) > a", "css:finder"],
+        ["xpath=//a[contains(text(),'Student Scholarship Program')]", "xpath:link"],
+        ["xpath=//nav[@id='link-effect-3']/ul/li[3]/ul/li/a", "xpath:idRelative"],
+        ["xpath=//a[contains(@href, '/programs/student-scholarship-program/')]", "xpath:href"],
+        ["xpath=//li[3]/ul/li/a", "xpath:position"],
+        ["xpath=//a[contains(.,'Student Scholarship Program')]", "xpath:innerText"]
+      ],
+      "value": ""
+    }, {
+      "id": "ea2f73c8-a7a5-4d85-b32a-0658887b7fb2",
+      "comment": "",
+      "command": "assertText",
+      "target": "css=.single-middle:nth-child(3) h4",
+      "targets": [
+        ["css=.single-middle:nth-child(3) h4", "css:finder"],
+        ["xpath=//div[3]/div/div/h4", "xpath:position"],
+        ["xpath=//h4[contains(.,'Objectives:')]", "xpath:innerText"]
+      ],
+      "value": "Objectives:"
+    }, {
+      "id": "e359f960-cb17-451f-bf91-fb500c58cc61",
+      "comment": "",
+      "command": "verifyElementPresent",
+      "target": "css=.single-middle:nth-child(3) p:nth-child(2)",
+      "targets": [
+        ["css=.single-middle:nth-child(3) p:nth-child(2)", "css:finder"],
+        ["xpath=//div[3]/div/div/p", "xpath:position"],
+        ["xpath=//p[contains(.,'Ensure money is not the showstopper')]", "xpath:innerText"]
+      ],
+      "value": ""
+    }, {
+      "id": "336c6134-0b11-4334-a9b0-6c9d4a56fc90",
+      "comment": "",
+      "command": "assertText",
+      "target": "css=.single-middle:nth-child(3) p:nth-child(3)",
+      "targets": [
+        ["css=.single-middle:nth-child(3) p:nth-child(3)", "css:finder"],
+        ["xpath=//p[2]", "xpath:position"],
+        ["xpath=//p[contains(.,'Use a little money to drive bigger results')]", "xpath:innerText"]
+      ],
+      "value": "Use a little money to drive bigger results"
+    }]
+  }, {
+    "id": "1026c56d-63c2-458f-a064-be91e48ff854",
+    "name": "c3",
+    "commands": [{
+      "id": "eda394f5-9315-4389-b039-2ab983054d19",
+      "comment": "",
+      "command": "open",
+      "target": "/",
+      "targets": [],
+      "value": ""
+    }, {
+      "id": "95f1aed3-3a0d-4ce8-95a1-3512458a7fbe",
+      "comment": "",
+      "command": "setWindowSize",
+      "target": "1382x744",
+      "targets": [],
+      "value": ""
+    }, {
+      "id": "38184835-720c-4b33-983e-57d13541ce33",
+      "comment": "",
+      "command": "click",
+      "target": "linkText=Programs",
+      "targets": [
+        ["linkText=Programs", "linkText"],
+        ["css=.dropdown:nth-child(3) > .dropdown-toggle", "css:finder"],
+        ["xpath=//a[contains(text(),'Programs')]", "xpath:link"],
+        ["xpath=//nav[@id='link-effect-3']/ul/li[3]/a", "xpath:idRelative"],
+        ["xpath=(//a[contains(@href, '#')])[3]", "xpath:href"],
+        ["xpath=//nav/ul/li[3]/a", "xpath:position"],
+        ["xpath=//a[contains(.,'Programs')]", "xpath:innerText"]
+      ],
+      "value": ""
+    }, {
+      "id": "194bf69f-0b49-4697-a01a-7503625aa2c3",
+      "comment": "",
+      "command": "click",
+      "target": "linkText=Student Scholarship Program",
+      "targets": [
+        ["linkText=Student Scholarship Program", "linkText"],
+        ["css=.open li:nth-child(1) > a", "css:finder"],
+        ["xpath=//a[contains(text(),'Student Scholarship Program')]", "xpath:link"],
+        ["xpath=//nav[@id='link-effect-3']/ul/li[3]/ul/li/a", "xpath:idRelative"],
+        ["xpath=//a[contains(@href, '/programs/student-scholarship-program/')]", "xpath:href"],
+        ["xpath=//li[3]/ul/li/a", "xpath:position"],
+        ["xpath=//a[contains(.,'Student Scholarship Program')]", "xpath:innerText"]
+      ],
+      "value": ""
+    }, {
+      "id": "39d2381c-ee70-4195-9670-b261bd81effc",
+      "comment": "",
+      "command": "verifyElementPresent",
+      "target": "linkText=Student Scholarship Program",
+      "targets": [
+        ["linkText=Student Scholarship Program", "linkText"],
+        ["css=.button-w3layouts:nth-child(1) > a", "css:finder"],
+        ["xpath=(//a[contains(text(),'Student Scholarship Program')])[2]", "xpath:link"],
+        ["xpath=(//a[contains(@href, '/programs/student-scholarship-program/')])[2]", "xpath:href"],
+        ["xpath=//div/ul/li/a", "xpath:position"]
+      ],
+      "value": ""
+    }]
+  }, {
+    "id": "0a458009-a9a4-4451-9560-702a2cfed565",
+    "name": "c44",
+    "commands": [{
+      "id": "bfc18d01-d67e-4408-8603-64fe2bc11d94",
+      "comment": "",
+      "command": "open",
+      "target": "/",
+      "targets": [],
+      "value": ""
+    }, {
+      "id": "53e02e37-4e14-4051-b8e2-42ac1b89e316",
+      "comment": "",
+      "command": "setWindowSize",
+      "target": "1382x744",
+      "targets": [],
+      "value": ""
+    }, {
+      "id": "cecaeee9-d816-44c8-bab4-3181748a21a9",
+      "comment": "",
+      "command": "click",
+      "target": "linkText=Programs",
+      "targets": [
+        ["linkText=Programs", "linkText"],
+        ["css=.dropdown:nth-child(3) > .dropdown-toggle", "css:finder"],
+        ["xpath=//a[contains(text(),'Programs')]", "xpath:link"],
+        ["xpath=//nav[@id='link-effect-3']/ul/li[3]/a", "xpath:idRelative"],
+        ["xpath=(//a[contains(@href, '#')])[3]", "xpath:href"],
+        ["xpath=//nav/ul/li[3]/a", "xpath:position"],
+        ["xpath=//a[contains(.,'Programs')]", "xpath:innerText"]
+      ],
+      "value": ""
+    }, {
+      "id": "ccadaf7d-3c40-4aec-9f50-fd95fc3aa4f4",
+      "comment": "",
+      "command": "click",
+      "target": "linkText=Student Mentorship Program",
+      "targets": [
+        ["linkText=Student Mentorship Program", "linkText"],
+        ["css=.open li:nth-child(2) > a", "css:finder"],
+        ["xpath=//a[contains(text(),'Student Mentorship Program')]", "xpath:link"],
+        ["xpath=//nav[@id='link-effect-3']/ul/li[3]/ul/li[2]/a", "xpath:idRelative"],
+        ["xpath=//a[contains(@href, '/programs/student-mentorship-program/')]", "xpath:href"],
+        ["xpath=//li[3]/ul/li[2]/a", "xpath:position"],
+        ["xpath=//a[contains(.,'Student Mentorship Program')]", "xpath:innerText"]
+      ],
+      "value": ""
+    }, {
+      "id": "18e28223-ae84-498f-aa61-82b474eeaf10",
+      "comment": "",
+      "command": "verifyElementPresent",
+      "target": "css=.col-md-12 > .para-w3-agile",
+      "targets": [
+        ["css=.col-md-12 > .para-w3-agile", "css:finder"],
+        ["xpath=//p", "xpath:position"]
+      ],
+      "value": ""
+    }, {
+      "id": "8703f2c2-f44f-4d4b-b14c-57719b69acba",
+      "comment": "",
+      "command": "assertText",
+      "target": "css=.single-middle:nth-child(3) span",
+      "targets": [
+        ["css=.single-middle:nth-child(3) span", "css:finder"],
+        ["xpath=//h3/span", "xpath:position"],
+        ["xpath=//span[contains(.,'Student Mentorship Program')]", "xpath:innerText"]
+      ],
+      "value": "Student Mentorship Program"
+    }]
+  }, {
+    "id": "72e940cb-f542-4a15-8101-c8249c4d0bc2",
+    "name": "c5",
+    "commands": [{
+      "id": "412c31e3-d93c-464a-99a0-0f52c822add5",
+      "comment": "",
+      "command": "open",
+      "target": "/",
+      "targets": [],
+      "value": ""
+    }, {
+      "id": "09b10f1f-bc05-4ad2-a900-f805e99e1df2",
+      "comment": "",
+      "command": "setWindowSize",
+      "target": "1382x744",
+      "targets": [],
+      "value": ""
+    }, {
+      "id": "7c619eac-5739-4036-a47d-5e2c283bcf54",
+      "comment": "",
+      "command": "click",
+      "target": "linkText=Programs",
+      "targets": [
+        ["linkText=Programs", "linkText"],
+        ["css=.dropdown:nth-child(3) > .dropdown-toggle", "css:finder"],
+        ["xpath=//a[contains(text(),'Programs')]", "xpath:link"],
+        ["xpath=//nav[@id='link-effect-3']/ul/li[3]/a", "xpath:idRelative"],
+        ["xpath=(//a[contains(@href, '#')])[3]", "xpath:href"],
+        ["xpath=//nav/ul/li[3]/a", "xpath:position"],
+        ["xpath=//a[contains(.,'Programs')]", "xpath:innerText"]
+      ],
+      "value": ""
+    }, {
+      "id": "ea61c7c7-9bae-4aac-a0cf-0661b8cbe747",
+      "comment": "",
+      "command": "click",
+      "target": "linkText=Student SOS Program",
+      "targets": [
+        ["linkText=Student SOS Program", "linkText"],
+        ["css=.open li:nth-child(3) > a", "css:finder"],
+        ["xpath=//a[contains(text(),'Student SOS Program')]", "xpath:link"],
+        ["xpath=//nav[@id='link-effect-3']/ul/li[3]/ul/li[3]/a", "xpath:idRelative"],
+        ["xpath=//a[contains(@href, '/programs/student-sos-program/')]", "xpath:href"],
+        ["xpath=//li[3]/ul/li[3]/a", "xpath:position"],
+        ["xpath=//a[contains(.,'Student SOS Program')]", "xpath:innerText"]
+      ],
+      "value": ""
+    }, {
+      "id": "c3dc3be4-ba25-4b85-aa43-487084ff5f1e",
+      "comment": "",
+      "command": "verifyText",
+      "target": "css=.single-middle:nth-child(1) p:nth-child(3)",
+      "targets": [
+        ["css=.single-middle:nth-child(1) p:nth-child(3)", "css:finder"],
+        ["xpath=//p[2]", "xpath:position"],
+        ["xpath=//p[contains(.,'Some people think \"SOS\" means “Save Our Souls”, “Send Our Succor” or “Save Our Ship”. The original use of \"SOS,\" however, dates back to 1908 and the International Morse Code distress signal used with maritime radio systems. In Morse Code, \"SOS\" is a signal sequence of three dits, three dats, and another three dits spelling \"S-O-S\". The expression \"Save Our Ship\" was probably coined by sailors to signal for help from a vessel in distress.')]", "xpath:innerText"]
+      ],
+      "value": "Some people think \"SOS\" means “Save Our Souls”, “Send Our Succor” or “Save Our Ship”. The original use of \"SOS,\" however, dates back to 1908 and the International Morse Code distress signal used with maritime radio systems. In Morse Code, \"SOS\" is a signal sequence of three dits, three dats, and another three dits spelling \"S-O-S\". The expression \"Save Our Ship\" was probably coined by sailors to signal for help from a vessel in distress."
+    }, {
+      "id": "ac7b8c34-dec5-462d-865c-6b80273cbed1",
+      "comment": "",
+      "command": "assertText",
+      "target": "css=.tittle-agileits-w3layouts:nth-child(3) > span",
+      "targets": [
+        ["css=.tittle-agileits-w3layouts:nth-child(3) > span", "css:finder"],
+        ["xpath=//div[2]/div/div/div/h3/span", "xpath:position"],
+        ["xpath=//span[contains(.,'Our Vision')]", "xpath:innerText"]
+      ],
+      "value": "Our Vision"
+    }]
+  }, {
+    "id": "4e555e9b-ee4d-4c3f-98e9-421e86751ba6",
+    "name": "c6",
+    "commands": [{
+      "id": "35f7b649-68b6-4e11-8563-0601e9d49c4f",
+      "comment": "",
+      "command": "open",
+      "target": "/",
+      "targets": [],
+      "value": ""
+    }, {
+      "id": "40471078-8487-4dc7-95d8-7bad4d83cbf9",
+      "comment": "",
+      "command": "setWindowSize",
+      "target": "1382x744",
+      "targets": [],
+      "value": ""
+    }, {
+      "id": "cd9a2373-f97f-429a-a1d3-2abe4fc39ea1",
+      "comment": "",
+      "command": "click",
+      "target": "linkText=Programs",
+      "targets": [
+        ["linkText=Programs", "linkText"],
+        ["css=.dropdown:nth-child(3) > .dropdown-toggle", "css:finder"],
+        ["xpath=//a[contains(text(),'Programs')]", "xpath:link"],
+        ["xpath=//nav[@id='link-effect-3']/ul/li[3]/a", "xpath:idRelative"],
+        ["xpath=(//a[contains(@href, '#')])[3]", "xpath:href"],
+        ["xpath=//nav/ul/li[3]/a", "xpath:position"],
+        ["xpath=//a[contains(.,'Programs')]", "xpath:innerText"]
+      ],
+      "value": ""
+    }, {
+      "id": "c2948501-0d44-4e78-9bf1-e476b627da42",
+      "comment": "",
+      "command": "click",
+      "target": "linkText=Student SOS Program",
+      "targets": [
+        ["linkText=Student SOS Program", "linkText"],
+        ["css=.open li:nth-child(3) > a", "css:finder"],
+        ["xpath=//a[contains(text(),'Student SOS Program')]", "xpath:link"],
+        ["xpath=//nav[@id='link-effect-3']/ul/li[3]/ul/li[3]/a", "xpath:idRelative"],
+        ["xpath=//a[contains(@href, '/programs/student-sos-program/')]", "xpath:href"],
+        ["xpath=//li[3]/ul/li[3]/a", "xpath:position"],
+        ["xpath=//a[contains(.,'Student SOS Program')]", "xpath:innerText"]
+      ],
+      "value": ""
+    }, {
+      "id": "eef044a7-1a53-4406-a167-ea82282d1ce6",
+      "comment": "",
+      "command": "verifyElementPresent",
+      "target": "linkText=Student Mentorship Program",
+      "targets": [
+        ["linkText=Student Mentorship Program", "linkText"],
+        ["css=.button-w3layouts:nth-child(2) > a", "css:finder"],
+        ["xpath=(//a[contains(text(),'Student Mentorship Program')])[2]", "xpath:link"],
+        ["xpath=(//a[contains(@href, '/programs/student-mentorship-program/')])[2]", "xpath:href"],
+        ["xpath=//div/ul/li[2]/a", "xpath:position"]
+      ],
+      "value": ""
+    }, {
+      "id": "160e4f68-1467-420c-87b1-2cf5930f9d26",
+      "comment": "",
+      "command": "verifyText",
+      "target": "linkText=Student SOS Program",
+      "targets": [
+        ["linkText=Student SOS Program", "linkText"],
+        ["css=.button-w3layouts:nth-child(3) > a", "css:finder"],
+        ["xpath=(//a[contains(text(),'Student SOS Program')])[2]", "xpath:link"],
+        ["xpath=(//a[contains(@href, '/programs/student-sos-program/')])[2]", "xpath:href"],
+        ["xpath=//div/ul/li[3]/a", "xpath:position"]
+      ],
+      "value": "Student SOS Program"
+    }, {
+      "id": "005b08e0-1ec8-46e0-9438-65cffd52dd4d",
+      "comment": "",
+      "command": "assertText",
+      "target": "linkText=Student Mentorship Program",
+      "targets": [
+        ["linkText=Student Mentorship Program", "linkText"],
+        ["css=.button-w3layouts:nth-child(2) > a", "css:finder"],
+        ["xpath=(//a[contains(text(),'Student Mentorship Program')])[2]", "xpath:link"],
+        ["xpath=(//a[contains(@href, '/programs/student-mentorship-program/')])[2]", "xpath:href"],
+        ["xpath=//div/ul/li[2]/a", "xpath:position"]
+      ],
+      "value": "Student Mentorship Program"
+    }]
+  }, {
+    "id": "98b5148b-f9e8-4ee2-b279-f5eb95ff868b",
+    "name": "waitforele",
+    "commands": [{
+      "id": "f132f362-32c8-4c74-9416-26bc76a117ab",
+      "comment": "",
+      "command": "open",
+      "target": "/",
+      "targets": [],
+      "value": ""
+    }, {
+      "id": "3e3bb4ff-7fbe-4c29-8d5b-9fe3ae3cd4fa",
+      "comment": "",
+      "command": "setWindowSize",
+      "target": "1382x744",
+      "targets": [],
+      "value": ""
+    }, {
+      "id": "07a61fce-b049-4e0b-b1b7-61676a16cdf7",
+      "comment": "",
+      "command": "click",
+      "target": "linkText=Programs",
+      "targets": [
+        ["linkText=Programs", "linkText"],
+        ["css=.dropdown:nth-child(3) > .dropdown-toggle", "css:finder"],
+        ["xpath=//a[contains(text(),'Programs')]", "xpath:link"],
+        ["xpath=//nav[@id='link-effect-3']/ul/li[3]/a", "xpath:idRelative"],
+        ["xpath=(//a[contains(@href, '#')])[3]", "xpath:href"],
+        ["xpath=//nav/ul/li[3]/a", "xpath:position"],
+        ["xpath=//a[contains(.,'Programs')]", "xpath:innerText"]
+      ],
+      "value": ""
+    }, {
+      "id": "efbfed70-d877-4a5d-8eec-5c7ead35cfd9",
+      "comment": "",
+      "command": "click",
+      "target": "linkText=Workshops",
+      "targets": [
+        ["linkText=Workshops", "linkText"],
+        ["css=.open li:nth-child(4) > a", "css:finder"],
+        ["xpath=//a[contains(text(),'Workshops')]", "xpath:link"],
+        ["xpath=//nav[@id='link-effect-3']/ul/li[3]/ul/li[4]/a", "xpath:idRelative"],
+        ["xpath=//a[contains(@href, '/programs/workshops/')]", "xpath:href"],
+        ["xpath=//li[3]/ul/li[4]/a", "xpath:position"],
+        ["xpath=//a[contains(.,'Workshops')]", "xpath:innerText"]
+      ],
+      "value": ""
+    }, {
+      "id": "65c55d45-9e91-46b1-aae9-22b586748145",
+      "comment": "",
+      "command": "waitForElementPresent",
+      "target": "css=.blog-grids-w3-agile:nth-child(1) .button-w3layouts",
+      "targets": [
+        ["css=.blog-grids-w3-agile:nth-child(1) .button-w3layouts", "css:finder"],
+        ["xpath=//a[contains(text(),'Learn more')]", "xpath:link"],
+        ["xpath=(//a[contains(@href, '/programs/workshops/glimpses-for-kids-workshop/')])[2]", "xpath:href"],
+        ["xpath=//div/a", "xpath:position"]
+      ],
+      "value": "2"
+    }, {
+      "id": "4e919ec0-0ff8-40f1-845d-96e31ac4cb40",
+      "comment": "",
+      "command": "waitForElementPresent",
+      "target": "css=.blog-grids-w3-agile:nth-child(4) .button-w3layouts",
+      "targets": [
+        ["css=.blog-grids-w3-agile:nth-child(4) .button-w3layouts", "css:finder"],
+        ["xpath=(//a[contains(text(),'Learn more')])[2]", "xpath:link"],
+        ["xpath=(//a[contains(@href, '/programs/workshops/links-workshop/')])[2]", "xpath:href"],
+        ["xpath=//div[2]/div/a", "xpath:position"]
+      ],
+      "value": "2"
+    }]
+  }, {
+    "id": "71d9039f-cb2a-444f-ace6-6fc489ed5821",
+    "name": "waitforele2",
+    "commands": [{
+      "id": "626d0254-87a3-44c5-8c2e-50b88eeceab0",
+      "comment": "",
+      "command": "open",
+      "target": "/",
+      "targets": [],
+      "value": ""
+    }, {
+      "id": "7033f684-449b-4974-95e5-debfc818d6ed",
+      "comment": "",
+      "command": "setWindowSize",
+      "target": "1382x744",
+      "targets": [],
+      "value": ""
+    }, {
+      "id": "b798606f-bc31-40e1-8304-5eaba8e6c6d9",
+      "comment": "",
+      "command": "click",
+      "target": "linkText=Programs",
+      "targets": [
+        ["linkText=Programs", "linkText"],
+        ["css=.dropdown:nth-child(3) > .dropdown-toggle", "css:finder"],
+        ["xpath=//a[contains(text(),'Programs')]", "xpath:link"],
+        ["xpath=//nav[@id='link-effect-3']/ul/li[3]/a", "xpath:idRelative"],
+        ["xpath=(//a[contains(@href, '#')])[3]", "xpath:href"],
+        ["xpath=//nav/ul/li[3]/a", "xpath:position"],
+        ["xpath=//a[contains(.,'Programs')]", "xpath:innerText"]
+      ],
+      "value": ""
+    }, {
+      "id": "d9e54645-f94e-4b0d-b82e-dd792e413f5f",
+      "comment": "",
+      "command": "click",
+      "target": "linkText=Corporate Programs",
+      "targets": [
+        ["linkText=Corporate Programs", "linkText"],
+        ["css=.open li:nth-child(5) > a", "css:finder"],
+        ["xpath=//a[contains(text(),'Corporate Programs')]", "xpath:link"],
+        ["xpath=//nav[@id='link-effect-3']/ul/li[3]/ul/li[5]/a", "xpath:idRelative"],
+        ["xpath=//a[contains(@href, '/programs/corporate-programs/')]", "xpath:href"],
+        ["xpath=//li[3]/ul/li[5]/a", "xpath:position"],
+        ["xpath=//a[contains(.,'Corporate Programs')]", "xpath:innerText"]
+      ],
+      "value": ""
+    }, {
+      "id": "46748667-47f9-4ae6-9550-9ad9721f3533",
+      "comment": "",
+      "command": "waitForElementVisible",
+      "target": "css=.button-w3layouts:nth-child(3)",
+      "targets": [
+        ["css=.button-w3layouts:nth-child(3)", "css:finder"],
+        ["xpath=//div/ul/li[3]", "xpath:position"]
+      ],
+      "value": "2"
+    }, {
+      "id": "f1cc5670-6c2a-4fe7-ac53-40105214c693",
+      "comment": "",
+      "command": "waitForElementPresent",
+      "target": "linkText=Student Scholarship Program",
+      "targets": [
+        ["linkText=Student Scholarship Program", "linkText"],
+        ["css=.button-w3layouts:nth-child(1) > a", "css:finder"],
+        ["xpath=(//a[contains(text(),'Student Scholarship Program')])[2]", "xpath:link"],
+        ["xpath=(//a[contains(@href, '/programs/student-scholarship-program/')])[2]", "xpath:href"],
+        ["xpath=//div/ul/li/a", "xpath:position"]
+      ],
+      "value": "2"
+    }]
+  }, {
+    "id": "5d4ca656-d620-41c8-901c-44f1b8802459",
+    "name": "waitassert",
+    "commands": [{
+      "id": "1398af37-6a6b-4136-84cb-3fb3608c5d76",
+      "comment": "",
+      "command": "open",
+      "target": "/",
+      "targets": [],
+      "value": ""
+    }, {
+      "id": "637b2b82-7f3c-4b3c-8e6e-3d16e35ba135",
+      "comment": "",
+      "command": "setWindowSize",
+      "target": "1382x744",
+      "targets": [],
+      "value": ""
+    }, {
+      "id": "8691218f-225e-485b-93a5-87813085be33",
+      "comment": "",
+      "command": "click",
+      "target": "linkText=Programs",
+      "targets": [
+        ["linkText=Programs", "linkText"],
+        ["css=.dropdown:nth-child(3) > .dropdown-toggle", "css:finder"],
+        ["xpath=//a[contains(text(),'Programs')]", "xpath:link"],
+        ["xpath=//nav[@id='link-effect-3']/ul/li[3]/a", "xpath:idRelative"],
+        ["xpath=(//a[contains(@href, '#')])[3]", "xpath:href"],
+        ["xpath=//nav/ul/li[3]/a", "xpath:position"],
+        ["xpath=//a[contains(.,'Programs')]", "xpath:innerText"]
+      ],
+      "value": ""
+    }, {
+      "id": "87d75b69-50ea-41a7-aaf3-b982b32a172d",
+      "comment": "",
+      "command": "click",
+      "target": "linkText=Student Scholarship Program",
+      "targets": [
+        ["linkText=Student Scholarship Program", "linkText"],
+        ["css=.open li:nth-child(1) > a", "css:finder"],
+        ["xpath=//a[contains(text(),'Student Scholarship Program')]", "xpath:link"],
+        ["xpath=//nav[@id='link-effect-3']/ul/li[3]/ul/li/a", "xpath:idRelative"],
+        ["xpath=//a[contains(@href, '/programs/student-scholarship-program/')]", "xpath:href"],
+        ["xpath=//li[3]/ul/li/a", "xpath:position"],
+        ["xpath=//a[contains(.,'Student Scholarship Program')]", "xpath:innerText"]
+      ],
+      "value": ""
+    }, {
+      "id": "ff8b3816-9763-4cc1-9d20-31ccd361ca4c",
+      "comment": "",
+      "command": "waitForElementPresent",
+      "target": "linkText=Corporate Programs",
+      "targets": [
+        ["linkText=Corporate Programs", "linkText"],
+        ["css=.button-w3layouts:nth-child(5) > a", "css:finder"],
+        ["xpath=(//a[contains(text(),'Corporate Programs')])[2]", "xpath:link"],
+        ["xpath=(//a[contains(@href, '/programs/corporate-programs/')])[2]", "xpath:href"],
+        ["xpath=//div/ul/li[5]/a", "xpath:position"]
+      ],
+      "value": "2"
+    }, {
+      "id": "4811fa4b-88e3-4651-b055-2337be12c656",
+      "comment": "",
+      "command": "assertText",
+      "target": "css=.tittle-agileits-w3layouts:nth-child(5) > span",
+      "targets": [
+        ["css=.tittle-agileits-w3layouts:nth-child(5) > span", "css:finder"],
+        ["xpath=//div[2]/div/div/div/h3/span", "xpath:position"],
+        ["xpath=//span[contains(.,'Our Vision')]", "xpath:innerText"]
+      ],
+      "value": "Our Vision"
+    }]
+  }],
+  "suites": [{
+    "id": "b4cb0d3b-0aa6-4622-ba2a-033a72496cc7",
+    "name": "Default Suite",
+    "persistSession": false,
+    "parallel": false,
+    "timeout": 300,
+    "tests": ["d44a0829-a30d-4e17-9382-93720ac30e21"]
+  }],
+  "urls": ["https://www.thesparksfoundationsingapore.org/"],
+  "plugins": []
+}

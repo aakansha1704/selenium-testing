@@ -1,0 +1,673 @@
+{
+  "id": "88eeca59-9805-49ce-9ad0-982b3b20d97d",
+  "version": "2.0",
+  "name": "GRIPTSF4",
+  "url": "https://www.thesparksfoundationsingapore.org",
+  "tests": [{
+    "id": "014c8225-e3df-410e-b4ab-cafbb07a122c",
+    "name": "c5",
+    "commands": [{
+      "id": "fac4e9cb-091c-42c4-bf22-af68b6d04e8d",
+      "comment": "",
+      "command": "open",
+      "target": "/",
+      "targets": [],
+      "value": ""
+    }, {
+      "id": "66a85035-f2f2-4584-9c92-e1aa91adb0fb",
+      "comment": "",
+      "command": "setWindowSize",
+      "target": "1382x744",
+      "targets": [],
+      "value": ""
+    }, {
+      "id": "53b197d7-b178-4c4e-b461-de884a56c007",
+      "comment": "",
+      "command": "click",
+      "target": "linkText=About Us",
+      "targets": [
+        ["linkText=About Us", "linkText"],
+        ["css=.dropdown:nth-child(1) > .dropdown-toggle", "css:finder"],
+        ["xpath=//a[contains(text(),'About Us')]", "xpath:link"],
+        ["xpath=//nav[@id='link-effect-3']/ul/li/a", "xpath:idRelative"],
+        ["xpath=//a[contains(@href, '#')]", "xpath:href"],
+        ["xpath=//li/a", "xpath:position"],
+        ["xpath=//a[contains(.,'About Us')]", "xpath:innerText"]
+      ],
+      "value": ""
+    }, {
+      "id": "a302f835-7893-491e-b502-f99723acc891",
+      "comment": "",
+      "command": "click",
+      "target": "linkText=Vision, Mission and Values",
+      "targets": [
+        ["linkText=Vision, Mission and Values", "linkText"],
+        ["css=.open li:nth-child(1) > a", "css:finder"],
+        ["xpath=//a[contains(text(),'Vision, Mission and Values')]", "xpath:link"],
+        ["xpath=//nav[@id='link-effect-3']/ul/li/ul/li/a", "xpath:idRelative"],
+        ["xpath=//a[contains(@href, '/about/vision-mission-and-values/')]", "xpath:href"],
+        ["xpath=//li/ul/li/a", "xpath:position"],
+        ["xpath=//a[contains(.,'Vision, Mission and Values')]", "xpath:innerText"]
+      ],
+      "value": ""
+    }, {
+      "id": "72d0f322-cd51-45a4-bc03-37f8c0947a57",
+      "comment": "",
+      "command": "verifyElementPresent",
+      "target": "linkText=Expert Mentors",
+      "targets": [
+        ["linkText=Expert Mentors", "linkText"],
+        ["css=.button-w3layouts:nth-child(6) > a", "css:finder"],
+        ["xpath=(//a[contains(text(),'Expert Mentors')])[2]", "xpath:link"],
+        ["xpath=(//a[contains(@href, '/about/expert-mentors/')])[2]", "xpath:href"],
+        ["xpath=//div/ul/li[6]/a", "xpath:position"]
+      ],
+      "value": ""
+    }]
+  }, {
+    "id": "1cdf5588-847c-4835-a122-ec4b723f6679",
+    "name": "checktitle",
+    "commands": [{
+      "id": "5dfb40f5-1afd-438f-b973-831cdebfa0c2",
+      "comment": "",
+      "command": "open",
+      "target": "/",
+      "targets": [],
+      "value": ""
+    }, {
+      "id": "c26304e1-3570-49e6-b74f-52c27fb11643",
+      "comment": "",
+      "command": "setWindowSize",
+      "target": "1382x744",
+      "targets": [],
+      "value": ""
+    }, {
+      "id": "b8bcb53a-6a6a-4431-8201-cfe704fa4c2b",
+      "comment": "",
+      "command": "verifyTitle",
+      "target": "The Sparks Foundation | Home",
+      "targets": [],
+      "value": ""
+    }, {
+      "id": "b6669f42-967f-4c02-bb32-a1644431cce6",
+      "comment": "",
+      "command": "verifyText",
+      "target": "css=.navbar-brand",
+      "targets": [
+        ["css=.navbar-brand", "css:finder"],
+        ["xpath=//div[@id='home']/div/div/h1/a", "xpath:idRelative"],
+        ["xpath=//a[contains(@href, '/')]", "xpath:href"],
+        ["xpath=//a", "xpath:position"]
+      ],
+      "value": " The Sparks Foundation\\n    ...inspiring,innovating,integrating"
+    }]
+  }, {
+    "id": "b9987470-bb85-475a-b9dc-8fadb4bd8339",
+    "name": "checktext",
+    "commands": [{
+      "id": "63dac4f9-9891-45d4-8dc7-37db0650c346",
+      "comment": "",
+      "command": "open",
+      "target": "/",
+      "targets": [],
+      "value": ""
+    }, {
+      "id": "2034b8e3-c788-4acc-89d6-788007d83051",
+      "comment": "",
+      "command": "setWindowSize",
+      "target": "1382x744",
+      "targets": [],
+      "value": ""
+    }, {
+      "id": "362086b8-96da-4957-923b-ae5bde89d7cb",
+      "comment": "",
+      "command": "click",
+      "target": "linkText=About Us",
+      "targets": [
+        ["linkText=About Us", "linkText"],
+        ["css=.dropdown:nth-child(1) > .dropdown-toggle", "css:finder"],
+        ["xpath=//a[contains(text(),'About Us')]", "xpath:link"],
+        ["xpath=//nav[@id='link-effect-3']/ul/li/a", "xpath:idRelative"],
+        ["xpath=//a[contains(@href, '#')]", "xpath:href"],
+        ["xpath=//li/a", "xpath:position"],
+        ["xpath=//a[contains(.,'About Us')]", "xpath:innerText"]
+      ],
+      "value": ""
+    }, {
+      "id": "556a8415-5da6-48b7-9063-f3bb0c8d3966",
+      "comment": "",
+      "command": "click",
+      "target": "linkText=Vision, Mission and Values",
+      "targets": [
+        ["linkText=Vision, Mission and Values", "linkText"],
+        ["css=.open li:nth-child(1) > a", "css:finder"],
+        ["xpath=//a[contains(text(),'Vision, Mission and Values')]", "xpath:link"],
+        ["xpath=//nav[@id='link-effect-3']/ul/li/ul/li/a", "xpath:idRelative"],
+        ["xpath=//a[contains(@href, '/about/vision-mission-and-values/')]", "xpath:href"],
+        ["xpath=//li/ul/li/a", "xpath:position"],
+        ["xpath=//a[contains(.,'Vision, Mission and Values')]", "xpath:innerText"]
+      ],
+      "value": ""
+    }, {
+      "id": "74338d9b-0652-45ca-899a-0f1d98161a92",
+      "comment": "",
+      "command": "verifyText",
+      "target": "css=.media-body > p:nth-child(1)",
+      "targets": [
+        ["css=.media-body > p:nth-child(1)", "css:finder"],
+        ["xpath=//p", "xpath:position"],
+        ["xpath=//p[contains(.,'A world of enabled and connected little minds, building future.')]", "xpath:innerText"]
+      ],
+      "value": "A world of enabled and connected little minds, building future."
+    }]
+  }, {
+    "id": "cedb0dbf-a7e7-4f0c-ad9d-7a180fee09e8",
+    "name": "check2",
+    "commands": [{
+      "id": "ee8cfd81-7f86-4329-8595-2425be3dedd4",
+      "comment": "",
+      "command": "open",
+      "target": "/",
+      "targets": [],
+      "value": ""
+    }, {
+      "id": "c9123bb9-8501-47f8-8616-5e77b3aa709c",
+      "comment": "",
+      "command": "setWindowSize",
+      "target": "1382x744",
+      "targets": [],
+      "value": ""
+    }, {
+      "id": "b1b96428-9b14-4a7c-bdbc-9ef302ab651f",
+      "comment": "",
+      "command": "click",
+      "target": "linkText=About Us",
+      "targets": [
+        ["linkText=About Us", "linkText"],
+        ["css=.dropdown:nth-child(1) > .dropdown-toggle", "css:finder"],
+        ["xpath=//a[contains(text(),'About Us')]", "xpath:link"],
+        ["xpath=//nav[@id='link-effect-3']/ul/li/a", "xpath:idRelative"],
+        ["xpath=//a[contains(@href, '#')]", "xpath:href"],
+        ["xpath=//li/a", "xpath:position"],
+        ["xpath=//a[contains(.,'About Us')]", "xpath:innerText"]
+      ],
+      "value": ""
+    }, {
+      "id": "95ecae5c-ce0c-4bbb-b455-2e38edcef1b3",
+      "comment": "",
+      "command": "click",
+      "target": "linkText=Vision, Mission and Values",
+      "targets": [
+        ["linkText=Vision, Mission and Values", "linkText"],
+        ["css=.open li:nth-child(1) > a", "css:finder"],
+        ["xpath=//a[contains(text(),'Vision, Mission and Values')]", "xpath:link"],
+        ["xpath=//nav[@id='link-effect-3']/ul/li/ul/li/a", "xpath:idRelative"],
+        ["xpath=//a[contains(@href, '/about/vision-mission-and-values/')]", "xpath:href"],
+        ["xpath=//li/ul/li/a", "xpath:position"],
+        ["xpath=//a[contains(.,'Vision, Mission and Values')]", "xpath:innerText"]
+      ],
+      "value": ""
+    }, {
+      "id": "8d2b9b0e-e6ef-4dec-89b8-63b55c712f5d",
+      "comment": "",
+      "command": "verifyText",
+      "target": "css=.tittle-agileits-w3layouts:nth-child(3) > span",
+      "targets": [
+        ["css=.tittle-agileits-w3layouts:nth-child(3) > span", "css:finder"],
+        ["xpath=//h3[2]/span", "xpath:position"],
+        ["xpath=//span[contains(.,'Our Mission Statement')]", "xpath:innerText"]
+      ],
+      "value": "Our Mission Statement"
+    }, {
+      "id": "85ffe5f2-258e-45d5-a590-15c4999ac2af",
+      "comment": "",
+      "command": "assertElementPresent",
+      "target": "css=.tittle-agileits-w3layouts:nth-child(1) > span",
+      "targets": [
+        ["css=.tittle-agileits-w3layouts:nth-child(1) > span", "css:finder"],
+        ["xpath=//h3/span", "xpath:position"],
+        ["xpath=//span[contains(.,'Our Vision Statement')]", "xpath:innerText"]
+      ],
+      "value": ""
+    }]
+  }, {
+    "id": "a43a68d4-022a-40a0-bb2f-f93819a2c4a9",
+    "name": "check3",
+    "commands": [{
+      "id": "8e3aab0e-76c3-462c-a27b-7afb94dadd68",
+      "comment": "",
+      "command": "open",
+      "target": "/",
+      "targets": [],
+      "value": ""
+    }, {
+      "id": "14fd1fec-2395-48c8-a84a-ecf11c7bc618",
+      "comment": "",
+      "command": "setWindowSize",
+      "target": "1382x744",
+      "targets": [],
+      "value": ""
+    }, {
+      "id": "7ada417b-4bde-4b69-b881-9c29aa357b6b",
+      "comment": "",
+      "command": "click",
+      "target": "linkText=About Us",
+      "targets": [
+        ["linkText=About Us", "linkText"],
+        ["css=.dropdown:nth-child(1) > .dropdown-toggle", "css:finder"],
+        ["xpath=//a[contains(text(),'About Us')]", "xpath:link"],
+        ["xpath=//nav[@id='link-effect-3']/ul/li/a", "xpath:idRelative"],
+        ["xpath=//a[contains(@href, '#')]", "xpath:href"],
+        ["xpath=//li/a", "xpath:position"],
+        ["xpath=//a[contains(.,'About Us')]", "xpath:innerText"]
+      ],
+      "value": ""
+    }, {
+      "id": "b27cec78-687d-4c10-ac10-37eac8ab46f4",
+      "comment": "",
+      "command": "click",
+      "target": "linkText=Vision, Mission and Values",
+      "targets": [
+        ["linkText=Vision, Mission and Values", "linkText"],
+        ["css=.open li:nth-child(1) > a", "css:finder"],
+        ["xpath=//a[contains(text(),'Vision, Mission and Values')]", "xpath:link"],
+        ["xpath=//nav[@id='link-effect-3']/ul/li/ul/li/a", "xpath:idRelative"],
+        ["xpath=//a[contains(@href, '/about/vision-mission-and-values/')]", "xpath:href"],
+        ["xpath=//li/ul/li/a", "xpath:position"],
+        ["xpath=//a[contains(.,'Vision, Mission and Values')]", "xpath:innerText"]
+      ],
+      "value": ""
+    }, {
+      "id": "6bd7c8b9-d61d-4e2c-b6af-acce17ac89cb",
+      "comment": "",
+      "command": "verifyText",
+      "target": "css=.media:nth-child(5) > .media-body:nth-child(1) > h4",
+      "targets": [
+        ["css=.media:nth-child(5) > .media-body:nth-child(1) > h4", "css:finder"],
+        ["xpath=//div[3]/div/h4", "xpath:position"],
+        ["xpath=//h4[contains(.,'Inspire')]", "xpath:innerText"]
+      ],
+      "value": "Inspire"
+    }, {
+      "id": "7f549d89-fd8c-422d-b987-372284172440",
+      "comment": "",
+      "command": "assertElementPresent",
+      "target": "css=.media:nth-child(5) > .media-body:nth-child(2) > h4",
+      "targets": [
+        ["css=.media:nth-child(5) > .media-body:nth-child(2) > h4", "css:finder"],
+        ["xpath=//div[2]/h4", "xpath:position"],
+        ["xpath=//h4[contains(.,'Innovate')]", "xpath:innerText"]
+      ],
+      "value": ""
+    }]
+  }, {
+    "id": "9792bb0f-5db4-4a28-8203-c1c7d1ee111e",
+    "name": "chk4",
+    "commands": [{
+      "id": "a28e14ae-3ab1-4d68-b877-532dd1ca95dc",
+      "comment": "",
+      "command": "open",
+      "target": "/",
+      "targets": [],
+      "value": ""
+    }, {
+      "id": "09698772-74eb-4cea-b473-a5d30bd3ea32",
+      "comment": "",
+      "command": "setWindowSize",
+      "target": "1382x744",
+      "targets": [],
+      "value": ""
+    }, {
+      "id": "b529c854-0720-4696-a45c-825fbd624cdf",
+      "comment": "",
+      "command": "click",
+      "target": "linkText=About Us",
+      "targets": [
+        ["linkText=About Us", "linkText"],
+        ["css=.dropdown:nth-child(1) > .dropdown-toggle", "css:finder"],
+        ["xpath=//a[contains(text(),'About Us')]", "xpath:link"],
+        ["xpath=//nav[@id='link-effect-3']/ul/li/a", "xpath:idRelative"],
+        ["xpath=//a[contains(@href, '#')]", "xpath:href"],
+        ["xpath=//li/a", "xpath:position"],
+        ["xpath=//a[contains(.,'About Us')]", "xpath:innerText"]
+      ],
+      "value": ""
+    }, {
+      "id": "ef429180-9602-46ae-a467-8884c01151d3",
+      "comment": "",
+      "command": "click",
+      "target": "linkText=Vision, Mission and Values",
+      "targets": [
+        ["linkText=Vision, Mission and Values", "linkText"],
+        ["css=.open li:nth-child(1) > a", "css:finder"],
+        ["xpath=//a[contains(text(),'Vision, Mission and Values')]", "xpath:link"],
+        ["xpath=//nav[@id='link-effect-3']/ul/li/ul/li/a", "xpath:idRelative"],
+        ["xpath=//a[contains(@href, '/about/vision-mission-and-values/')]", "xpath:href"],
+        ["xpath=//li/ul/li/a", "xpath:position"],
+        ["xpath=//a[contains(.,'Vision, Mission and Values')]", "xpath:innerText"]
+      ],
+      "value": ""
+    }, {
+      "id": "d6f19ea4-39f9-44f6-9bb4-2df37e3bf753",
+      "comment": "",
+      "command": "verifyElementPresent",
+      "target": "css=.button-w3layouts:nth-child(1)",
+      "targets": [
+        ["css=.button-w3layouts:nth-child(1)", "css:finder"],
+        ["xpath=//div[2]/div/ul/li", "xpath:position"]
+      ],
+      "value": ""
+    }]
+  }, {
+    "id": "53d89b15-370c-471b-ad27-d3ffc9619974",
+    "name": "c6",
+    "commands": [{
+      "id": "74cdba43-b39f-4473-a178-bc68fb6c41d8",
+      "comment": "",
+      "command": "open",
+      "target": "/",
+      "targets": [],
+      "value": ""
+    }, {
+      "id": "762a50d8-512b-4316-bd77-cd16ae74b1ba",
+      "comment": "",
+      "command": "setWindowSize",
+      "target": "1382x744",
+      "targets": [],
+      "value": ""
+    }, {
+      "id": "991eb65a-c02d-484b-811c-53fd532751a4",
+      "comment": "",
+      "command": "click",
+      "target": "linkText=About Us",
+      "targets": [
+        ["linkText=About Us", "linkText"],
+        ["css=.dropdown:nth-child(1) > .dropdown-toggle", "css:finder"],
+        ["xpath=//a[contains(text(),'About Us')]", "xpath:link"],
+        ["xpath=//nav[@id='link-effect-3']/ul/li/a", "xpath:idRelative"],
+        ["xpath=//a[contains(@href, '#')]", "xpath:href"],
+        ["xpath=//li/a", "xpath:position"],
+        ["xpath=//a[contains(.,'About Us')]", "xpath:innerText"]
+      ],
+      "value": ""
+    }, {
+      "id": "b3308742-8661-4810-9398-da9ef6402647",
+      "comment": "",
+      "command": "click",
+      "target": "linkText=Guiding Principles",
+      "targets": [
+        ["linkText=Guiding Principles", "linkText"],
+        ["css=.open li:nth-child(2) > a", "css:finder"],
+        ["xpath=//a[contains(text(),'Guiding Principles')]", "xpath:link"],
+        ["xpath=//nav[@id='link-effect-3']/ul/li/ul/li[2]/a", "xpath:idRelative"],
+        ["xpath=//a[contains(@href, '/about/guiding-principles/')]", "xpath:href"],
+        ["xpath=//li[2]/a", "xpath:position"],
+        ["xpath=//a[contains(.,'Guiding Principles')]", "xpath:innerText"]
+      ],
+      "value": ""
+    }, {
+      "id": "cb01f0c1-5439-4942-ad94-cbda151d0c1c",
+      "comment": "",
+      "command": "assertText",
+      "target": "css=.media:nth-child(3) p",
+      "targets": [
+        ["css=.media:nth-child(3) p", "css:finder"],
+        ["xpath=//div[2]/div/p", "xpath:position"],
+        ["xpath=//p[contains(.,'We believe children are gifts of god and any service to them is service to god. We are committed to providing everyone and opportunity to learn, grow and help others grow.')]", "xpath:innerText"]
+      ],
+      "value": "We believe children are gifts of god and any service to them is service to god. We are committed to providing everyone and opportunity to learn, grow and help others grow."
+    }, {
+      "id": "63b41043-88e4-40de-94f0-2f8cc289da71",
+      "comment": "",
+      "command": "assertElementPresent",
+      "target": "css=.media:nth-child(3) p",
+      "targets": [
+        ["css=.media:nth-child(3) p", "css:finder"],
+        ["xpath=//div[2]/div/p", "xpath:position"],
+        ["xpath=//p[contains(.,'We believe children are gifts of god and any service to them is service to god. We are committed to providing everyone and opportunity to learn, grow and help others grow.')]", "xpath:innerText"]
+      ],
+      "value": ""
+    }]
+  }, {
+    "id": "eecda68e-a307-471e-8ece-6c731f509cd4",
+    "name": "c7",
+    "commands": [{
+      "id": "d2fff219-803e-4a13-bc9e-2e07c8cd2db9",
+      "comment": "",
+      "command": "open",
+      "target": "/",
+      "targets": [],
+      "value": ""
+    }, {
+      "id": "43b66279-009f-4f42-a4f7-95ecebc7321b",
+      "comment": "",
+      "command": "setWindowSize",
+      "target": "1382x744",
+      "targets": [],
+      "value": ""
+    }, {
+      "id": "5781ba7f-1f5a-4f9e-a3ef-38219f03290d",
+      "comment": "",
+      "command": "click",
+      "target": "linkText=About Us",
+      "targets": [
+        ["linkText=About Us", "linkText"],
+        ["css=.dropdown:nth-child(1) > .dropdown-toggle", "css:finder"],
+        ["xpath=//a[contains(text(),'About Us')]", "xpath:link"],
+        ["xpath=//nav[@id='link-effect-3']/ul/li/a", "xpath:idRelative"],
+        ["xpath=//a[contains(@href, '#')]", "xpath:href"],
+        ["xpath=//li/a", "xpath:position"],
+        ["xpath=//a[contains(.,'About Us')]", "xpath:innerText"]
+      ],
+      "value": ""
+    }, {
+      "id": "c4a3a354-e239-4a7a-8571-e868c30122a6",
+      "comment": "",
+      "command": "click",
+      "target": "linkText=Advisors and Patrons",
+      "targets": [
+        ["linkText=Advisors and Patrons", "linkText"],
+        ["css=.open li:nth-child(3) > a", "css:finder"],
+        ["xpath=//a[contains(text(),'Advisors and Patrons')]", "xpath:link"],
+        ["xpath=//nav[@id='link-effect-3']/ul/li/ul/li[3]/a", "xpath:idRelative"],
+        ["xpath=//a[contains(@href, '/about/advisors-and-patrons/')]", "xpath:href"],
+        ["xpath=//li[3]/a", "xpath:position"],
+        ["xpath=//a[contains(.,'Advisors and Patrons')]", "xpath:innerText"]
+      ],
+      "value": ""
+    }, {
+      "id": "91d8e5fd-aebb-42c7-bac3-fdce42af72cb",
+      "comment": "",
+      "command": "verifyText",
+      "target": "css=.media-body:nth-child(3) > p",
+      "targets": [
+        ["css=.media-body:nth-child(3) > p", "css:finder"],
+        ["xpath=//p", "xpath:position"],
+        ["xpath=//p[contains(.,'Marie Ang is the Founder and Managing Director of Solomon’s Guild and the Asia Pacific President of Academic Management Group, LLC. She serves on the advisory boards of several businesses in Hong Kong and Singapore. She is a certified John C. Maxwell and Accelerated Coach Training coach, mentor and a sought-after speaker in various business, educational and professional fora. She assists businesses in human capital development and business transformation.')]", "xpath:innerText"]
+      ],
+      "value": "Marie Ang is the Founder and Managing Director of Solomon’s Guild and the Asia Pacific President of Academic Management Group, LLC. She serves on the advisory boards of several businesses in Hong Kong and Singapore. She is a certified John C. Maxwell and Accelerated Coach Training coach, mentor and a sought-after speaker in various business, educational and professional fora. She assists businesses in human capital development and business transformation."
+    }, {
+      "id": "76187a9b-0ecb-4817-9532-69fd0357f24a",
+      "comment": "",
+      "command": "assertText",
+      "target": "css=.media-body:nth-child(3) > p",
+      "targets": [
+        ["css=.media-body:nth-child(3) > p", "css:finder"],
+        ["xpath=//p", "xpath:position"],
+        ["xpath=//p[contains(.,'Marie Ang is the Founder and Managing Director of Solomon’s Guild and the Asia Pacific President of Academic Management Group, LLC. She serves on the advisory boards of several businesses in Hong Kong and Singapore. She is a certified John C. Maxwell and Accelerated Coach Training coach, mentor and a sought-after speaker in various business, educational and professional fora. She assists businesses in human capital development and business transformation.')]", "xpath:innerText"]
+      ],
+      "value": "Marie Ang is the Founder and Managing Director of Solomon’s Guild and the Asia Pacific President of Academic Management Group, LLC. She serves on the advisory boards of several businesses in Hong Kong and Singapore. She is a certified John C. Maxwell and Accelerated Coach Training coach, mentor and a sought-after speaker in various business, educational and professional fora. She assists businesses in human capital development and business transformation."
+    }]
+  }, {
+    "id": "3cdf0fc7-787e-4eb9-99c3-cb743da7822c",
+    "name": "c8",
+    "commands": [{
+      "id": "38196b2f-1406-43c1-83fb-d79e01a2dc0a",
+      "comment": "",
+      "command": "open",
+      "target": "/",
+      "targets": [],
+      "value": ""
+    }, {
+      "id": "a9e319d7-355d-49ec-ac9a-5db68a231307",
+      "comment": "",
+      "command": "setWindowSize",
+      "target": "1382x744",
+      "targets": [],
+      "value": ""
+    }, {
+      "id": "405a6e69-deba-4a89-8d69-c27e11f1269b",
+      "comment": "",
+      "command": "click",
+      "target": "linkText=About Us",
+      "targets": [
+        ["linkText=About Us", "linkText"],
+        ["css=.dropdown:nth-child(1) > .dropdown-toggle", "css:finder"],
+        ["xpath=//a[contains(text(),'About Us')]", "xpath:link"],
+        ["xpath=//nav[@id='link-effect-3']/ul/li/a", "xpath:idRelative"],
+        ["xpath=//a[contains(@href, '#')]", "xpath:href"],
+        ["xpath=//li/a", "xpath:position"],
+        ["xpath=//a[contains(.,'About Us')]", "xpath:innerText"]
+      ],
+      "value": ""
+    }, {
+      "id": "37e8c66f-1c14-4f0a-ad7b-c386712b0f65",
+      "comment": "",
+      "command": "click",
+      "target": "linkText=Advisors and Patrons",
+      "targets": [
+        ["linkText=Advisors and Patrons", "linkText"],
+        ["css=.open li:nth-child(3) > a", "css:finder"],
+        ["xpath=//a[contains(text(),'Advisors and Patrons')]", "xpath:link"],
+        ["xpath=//nav[@id='link-effect-3']/ul/li/ul/li[3]/a", "xpath:idRelative"],
+        ["xpath=//a[contains(@href, '/about/advisors-and-patrons/')]", "xpath:href"],
+        ["xpath=//li[3]/a", "xpath:position"],
+        ["xpath=//a[contains(.,'Advisors and Patrons')]", "xpath:innerText"]
+      ],
+      "value": ""
+    }, {
+      "id": "b78ada33-7ade-43b7-bfc4-5669740c28c2",
+      "comment": "",
+      "command": "assertText",
+      "target": "css=.media-body:nth-child(8) > h4",
+      "targets": [
+        ["css=.media-body:nth-child(8) > h4", "css:finder"],
+        ["xpath=//div[3]/h4", "xpath:position"],
+        ["xpath=//h4[contains(.,'Prof. Jasjit Singh')]", "xpath:innerText"]
+      ],
+      "value": "Prof. Jasjit Singh"
+    }, {
+      "id": "4c27ab38-a58d-41f1-b49d-3fab375041d7",
+      "comment": "",
+      "command": "assertElementPresent",
+      "target": "css=.media-body:nth-child(8) > p",
+      "targets": [
+        ["css=.media-body:nth-child(8) > p", "css:finder"],
+        ["xpath=//div[3]/p", "xpath:position"],
+        ["xpath=//p[contains(.,'Jasjit Singh has been an INSEAD professor since 2004. His interests include Strategy, Inclusive Business, Sustainable Development, Innovation, Impact Investing and Impact Evaluation. He is particularly passionate about how market forces and business tools can be used as a force for good, and regularly teaches in INSEAD’s MBA, EMBA and executive programmes on this topic. He also gives speeches, conducts workshops and advises enterprises, non-profits and investors on how to systematically think about their impact.')]", "xpath:innerText"]
+      ],
+      "value": ""
+    }, {
+      "id": "f8266dac-285e-4d5b-a232-974006ac23ab",
+      "comment": "",
+      "command": "verifyElementPresent",
+      "target": "css=.media-body:nth-child(8) > p",
+      "targets": [
+        ["css=.media-body:nth-child(8) > p", "css:finder"],
+        ["xpath=//div[3]/p", "xpath:position"],
+        ["xpath=//p[contains(.,'Jasjit Singh has been an INSEAD professor since 2004. His interests include Strategy, Inclusive Business, Sustainable Development, Innovation, Impact Investing and Impact Evaluation. He is particularly passionate about how market forces and business tools can be used as a force for good, and regularly teaches in INSEAD’s MBA, EMBA and executive programmes on this topic. He also gives speeches, conducts workshops and advises enterprises, non-profits and investors on how to systematically think about their impact.')]", "xpath:innerText"]
+      ],
+      "value": ""
+    }]
+  }, {
+    "id": "367cbb7d-80a3-442c-a3e6-ed0db153e9dd",
+    "name": "c9",
+    "commands": [{
+      "id": "f64d4638-7f54-4ea3-93f4-7688d3ad7e2c",
+      "comment": "",
+      "command": "open",
+      "target": "/",
+      "targets": [],
+      "value": ""
+    }, {
+      "id": "a4851688-67df-409d-9ce3-9b8042ba2ae3",
+      "comment": "",
+      "command": "setWindowSize",
+      "target": "1382x744",
+      "targets": [],
+      "value": ""
+    }, {
+      "id": "36ed3759-f29b-413a-8f70-ff0903ecc902",
+      "comment": "",
+      "command": "click",
+      "target": "linkText=About Us",
+      "targets": [
+        ["linkText=About Us", "linkText"],
+        ["css=.dropdown:nth-child(1) > .dropdown-toggle", "css:finder"],
+        ["xpath=//a[contains(text(),'About Us')]", "xpath:link"],
+        ["xpath=//nav[@id='link-effect-3']/ul/li/a", "xpath:idRelative"],
+        ["xpath=//a[contains(@href, '#')]", "xpath:href"],
+        ["xpath=//li/a", "xpath:position"],
+        ["xpath=//a[contains(.,'About Us')]", "xpath:innerText"]
+      ],
+      "value": ""
+    }, {
+      "id": "b93bb8e4-bca9-4157-8253-ca67ad38f2f8",
+      "comment": "",
+      "command": "click",
+      "target": "linkText=Corporate Partners",
+      "targets": [
+        ["linkText=Corporate Partners", "linkText"],
+        ["css=.open li:nth-child(5) > a", "css:finder"],
+        ["xpath=//a[contains(text(),'Corporate Partners')]", "xpath:link"],
+        ["xpath=//nav[@id='link-effect-3']/ul/li/ul/li[5]/a", "xpath:idRelative"],
+        ["xpath=//a[contains(@href, '/about/corporate-partners/')]", "xpath:href"],
+        ["xpath=//li[5]/a", "xpath:position"],
+        ["xpath=//a[contains(.,'Corporate Partners')]", "xpath:innerText"]
+      ],
+      "value": ""
+    }, {
+      "id": "b59de8de-e499-45d6-940c-d7298bd239de",
+      "comment": "",
+      "command": "assertText",
+      "target": "css=.single-middle:nth-child(1) p:nth-child(1)",
+      "targets": [
+        ["css=.single-middle:nth-child(1) p:nth-child(1)", "css:finder"],
+        ["xpath=//p", "xpath:position"],
+        ["xpath=//p[contains(.,'Xaltius is a technology driven company with expertise to provide innovative software solutions to customers around the globe. We work to enhance and drive superior business performance.')]", "xpath:innerText"]
+      ],
+      "value": "Xaltius is a technology driven company with expertise to provide innovative software solutions to customers around the globe. We work to enhance and drive superior business performance."
+    }, {
+      "id": "49783411-da18-44cb-95ff-8edcba96ac2d",
+      "comment": "",
+      "command": "verifyText",
+      "target": "css=.single-middle:nth-child(1) span",
+      "targets": [
+        ["css=.single-middle:nth-child(1) span", "css:finder"],
+        ["xpath=//h3/span", "xpath:position"],
+        ["xpath=//span[contains(.,'AINE AI')]", "xpath:innerText"]
+      ],
+      "value": "AINE AI"
+    }, {
+      "id": "0a98f854-60f0-4815-ab88-57c9bef40bc8",
+      "comment": "",
+      "command": "verifyText",
+      "target": "css=.media-body:nth-child(2) > p:nth-child(1)",
+      "targets": [
+        ["css=.media-body:nth-child(2) > p:nth-child(1)", "css:finder"],
+        ["xpath=//div[2]/p", "xpath:position"]
+      ],
+      "value": "Xaltius is a technology driven company with expertise to provide innovative software solutions to customers around the globe. We work to enhance and drive superior business performance."
+    }]
+  }],
+  "suites": [{
+    "id": "a820b5d0-9f73-4398-b627-b323df2995da",
+    "name": "Default Suite",
+    "persistSession": false,
+    "parallel": false,
+    "timeout": 300,
+    "tests": ["014c8225-e3df-410e-b4ab-cafbb07a122c"]
+  }],
+  "urls": ["https://www.thesparksfoundationsingapore.org/"],
+  "plugins": []
+}
