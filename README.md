@@ -21,21 +21,21 @@ A mini project containing all that I learned about different types of testing.
 
 <h2>Commands used</h2>
 <p>
-open
-click
-wait for element present
-wait for element visible
-wait for element editable
-wait for text
-assert text
-assert title
-assert editable
-assert not editable
-assert element present
-verify text
-verify title
-verify editable
-verify not editable
-verify element present
-mouse over
+open<br>
+click<br>
+wait for element present<br>
+wait for element visible<br>
+wait for element editable<br>
+wait for text<br>
+assert text<br>
+assert title<br>
+assert editable<br>
+assert not editable<br>
+assert element present<br>
+verify text<br>
+verify title<br>
+verify editable<br>
+verify not editable<br>
+verify element present<br>
+mouse over<br>
 </p>
